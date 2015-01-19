@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="New Set" id="072e4e31-1c8a-451f-8c11-0db4d79ad08c" 
+     gameId="629549ab-135c-46f1-ab1b-77cb6347dbf8" 
+     version="1.0.0" 
+     gameVersion="1.0.0" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+
+      <card id="9e2d2383-7a40-4374-91ab-95c7ee54c927" name="Border Keep">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="4" />
+         <property name="Point Cost"      value="3" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="You cannot redistribute food to or from this castle during the Winter Phase (you may add raided food here)." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="0b14da44-669c-4204-8b1e-dedf1769d599" name="Caldera Fort">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="6" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="After all units have been assigned in an Attack Phase but before selecting a battle to resolve, bury a random card from each army assigned to this castle, along with any cards attached to the destroyed card." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="37ac80ad-9ac3-426b-a64a-dd0b22665526" name="Camp Defiance">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Displaced-Epic" />
+         <property name="Text"            value="Summer, 1 food (from this card): Bow this card. Draw a card." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d3a3c5c4-a60c-4087-bb87-f2a8f8b4f0e4" name="Casle Holden">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="4" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Holden-Epic" />
+         <property name="Text"            value="Food tokens on this card each absorb 2 points of damage." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="82639ba0-957d-4620-a60e-6b4a71410039" name="Castle of the Dead">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="4" />
+         <property name="Point Cost"      value="5" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="After a hero is assigned or moved to a battle at this castle, that her's player discards food equal to that hero's food cost." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="5330a6f0-2066-4703-9ce6-cc634f22a634" name="Fortified Market Town">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="4" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="React: After you bow a property for gold, bow this card to produce one extra gold." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="6daa9ca4-c221-46ba-8484-417e10f1d42f" name="Hammerdoom's Roost">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="Machior" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Malchior-Epic" />
+         <property name="Text"            value="After the first time each turn you bury an enemy castle, add one food token to this castle." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4d500f49-7c95-4b4a-b541-ab6abd111004" name="Kaskad Slip">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="3" />
+         <property name="Point Cost"      value="3" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Ord-Epic" />
+         <property name="Text"            value="Battle: Target a hero at the current battle. Discard the top card of your deck. If it's Fate value is higher than the hero's Glory, send that hero home. (You must have a unity present to use this ability.)" />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="29f7ef2f-3ec6-40ff-b96d-912cf3ee3c95" name="Labyrinth of Bone">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Each hero without the undead keyword has a -1S/-1W while at a battle here." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="fadb5269-8c11-4065-8698-99352a4689fa" name="Outpost">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="4" />
+         <property name="Point Cost"      value="3" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="The attacker takes the first action in battle at this castle." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="21091ecf-d78c-4ee6-9a07-e437237a96eb" name="Protected Farmland">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="5" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="Summer, 3 gold: Bow this card. Add one food token to this card." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="cd089944-7271-47d3-a307-41d40226b430" name="Sanctuary">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="6" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="This castle can hold any number of food tokens" />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="bdfb4eb9-b9d1-4333-85a4-09d81cd99b7c" name="Temple of the Snail Spirit">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="5" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="Battle, 1 food (from this card): Send one target attacking unit home from the current battle. (You must have a unit present to use this ability.)" />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b6824405-a72e-41f1-ba5a-6daa211e7759" name="The Sunken Pyramid">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="Ixhasa" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="4" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Ixhasa-Epic" />
+         <property name="Text"            value="Autumn, 2 food (from this card): Place a target hero from your buried pile into play. That hero gains an Undead keyword marker." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="036560e6-362c-4bbc-ad11-dc18f4d09b0f" name="Wizard's Tower">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="5" />
+         <property name="Point Cost"      value="4" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="React: After a wizard attaches a spell, bow this card. Draw a card." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="79577f27-0809-4db0-8a11-ed6f513598d8" name="Glyde, the Dreadowl">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="0" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="1" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="This card's hero gains an additional Carry +1." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="054470af-827f-4062-96bd-905d8a379598" name="Malchian Guard">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="After you attach this card to a hero, draw a card." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b8a2dbd5-ea49-4681-a3cf-f6a60f15afca" name="Malchian Phalanx">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Brutal" />
+         <property name="Text"            value="Each card in this unity gains the Brutal keyword." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="800e9b6c-6e20-45ab-9b9c-2fa48a184eed" name="Peasant Archers">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="After you attach this card to a hero, add food equal to that hero's food cost to one of your castles." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="7a8a0e29-bb08-4a9e-b437-83c0b3e5fa06" name="Veteran Men-at-Arms">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="React: When this card absorbs damage, discard a card. This card absorbs additional damage equal to the Fate value of that card." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="6f68257d-7f96-4a0b-86b5-0646f181629b" name="Colonel Baker">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="5" />
+         <property name="Will"            value="5" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="13" />
+         <property name="Food Cost"       value="3" />
+         <property name="Keywords"        value="Displaced-Duelist-Champion-Unique-Raid +2-Carry +1" />
+         <property name="Text"            value="React: After a tactic card is played at the current battle, cancel its effects." />
+         <property name="Fate Value"      value="5" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="ae642579-0c16-4b68-a495-8481fea760f9" name="Jerrin Strongblade">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="1" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Displaced-Wizard" />
+         <property name="Text"            value="When this card is assigned to raid, do not play a stealth card on him until after any defending hero has been assigned. The defending hero's stealth card must be played face up." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="1db88b8d-14b8-4fc3-9a74-5b1ebba4b2ef" name="Sergant Ware">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="7" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Displaced-Renowned" />
+         <property name="Text"            value="This card gains +2S while defending" />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="aa9cbd2b-7912-43c7-ae25-b867fd2b502c" name="Siter'Ath Jones">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="5" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Displaced-Renowned-Questor" />
+         <property name="Text"            value="Autumn: This unit raid. (No other units raid. This does not replace your normal raid. You may use this action if you have already raided this turn." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="71fa6fd9-cc04-4802-8766-c8b7dd719939" name="&quot;Skeeter&quot; Malloy">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Displaced-Unique-Carry +1-Raid Master" />
+         <property name="Text"            value="Raid: If you have no units in the current raid, move this unit into the current raid and play a stealth card on him." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="949b2041-4509-4ba6-9b3e-6203ae9af06b" name="The Chaplain">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="10" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Displaced-Holy-Unique-Raid +1" />
+         <property name="Text"            value="If this card takes a castle's last food token in a raid, bury that castle." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="e8fe7cd9-b836-4bcb-9f4e-e74fe0087fec" name="Young Mike">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Displaced" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="1" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="7" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Displaced-Cult Hero-Carry +1" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="21c73654-1ccc-4cfd-a41f-a3f84a7cbf88" name="Alaric Buxtehude">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Holden-Mercenary" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4ebd11c4-44db-4f45-b31b-eb7adad012f4" name="Coeli Quando">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Holden-Messenger" />
+         <property name="Text"            value="Battle: If there are opposing units int he current battle, move your target hero to the current battle." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="e190682e-856b-4c64-bf6f-5fbcaa18b843" name="Genevieve">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="0" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="5" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Holden-Unique-Royal-Queen of Holden" />
+         <property name="Text"            value="Summer: Bow this card. Place a target quest from your buried pile into your hand." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="cf997349-c791-4de9-8349-0009234e3b0c" name="Jack Newcomer">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="4" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Holden-Questor-Raid +1" />
+         <property name="Text"            value="This card has an additional Raid +1 while defending." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="770c6b28-2947-4fd3-ba07-47a10f60c3d5" name="Myriad Buxtehude">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="5" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="9" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Holden-Questor-Royal-Champion-Unique" />
+         <property name="Text"            value="Summer: If you have played a quest this turn, draw a card." />
+         <property name="Fate Value"      value="5" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="05af7923-d7ee-4334-8e0c-5a8264cd5860" name="The Vanguard of Guild 10-42">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Holden-Questor" />
+         <property name="Text"            value="This card has +2S while there are more units in the opposing army." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="726893b1-30f4-4c47-8ca6-33ab0de3e6a6" name="Tuatha Dundareel">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Holden" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Holden-Questor-Unique-Fae-Sidhe-Seelie" />
+         <property name="Text"            value="This card has a +2S while in the same location as Myriad Buxtehude. Summer: Bow this card. Bow a target hero with lower Will." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="397ec22e-88b7-4bc5-a366-9e96bc22ecc2" name="Pharoh Rasha">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ixhasa" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="5" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="10" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Ixhasa-Wizard-Champion-Duelist-Unique" />
+         <property name="Text"            value="Each opponent discards 2 food tokens which this card enters play. Battle: Add a 0S, 1W, 0R, Crypt Fodder Undead hero token to this army." />
+         <property name="Fate Value"      value="5" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="1516a590-cceb-4ce2-b07e-c5e5c2ffff90" name="Scourge">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ixhasa" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="5" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Ixhasa-Questor-Undead-Priest" />
+         <property name="Text"            value="Draw 1 card when this card enters play. Summer/Autumn: Look at the top card of another player's deck. Return the card to the top of the deck or place it at the bottom of the deck." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="079b78d9-deaf-4bdb-92b6-ac77cb6cc767" name="Skafla">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ixhasa" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="4" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Ixhasa-Unique-Undead-Horror" />
+         <property name="Text"            value="Autumn: Bow this card. Reduce his Strength to zero. Give a target hero a -1S marker." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="cc3a6ef3-5eec-4021-9fed-331a8207c27f" name="The Emissary">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ixhasa" />
+         <property name="Strength"        value="0" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="5" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Ixhasa-Unique-Courtier" />
+         <property name="Text"            value="Summer: Bow this card and discard one or two food tokens. The Ordained player discards an equal number of food tokens." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="c7734acb-9165-411d-b4ff-96e2dd041de7" name="Urgosh">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ixhasa" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="7" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Ixhasa-Wizard-Undead" />
+         <property name="Text"            value="This card has +1S for each Undead hero and cohort in it's army." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="6e709021-588b-4405-977d-2f5c64fb0aae" name="Beknine">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Malchior" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="4" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Malchior-Shield of the Protectorate" />
+         <property name="Text"            value="Bowed heroes cannot absorb damage when this card engages." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="a3c29f26-ea61-4385-bd3c-2d8fb45d85a4" name="Dolomor">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Malchior" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="7" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Malchior-Mercenary-Duelist" />
+         <property name="Text"            value="Summer, 2 gold: Attach a 1S Conscript cohort token to your target hero." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="98d1d089-b175-4b94-a8eb-c4abd11afff3" name="Hektor">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Malchior" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="1" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Malchior" />
+         <property name="Text"            value="This card has an additional +1S while attacking." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4481ad54-2ff9-4981-80fe-4b4825804c40" name="Nicoletta">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Malchior" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Malchior-Brutal-Questor" />
+         <property name="Text"            value="After this card assigns to a battle, discard the top card of your deck. Add the card's Fate value to this card's Strength until the end of the battle." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="cecb011c-5991-4e1c-8688-256654c3dd3c" name="Prince Rannon">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Malchior" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="9" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Malchior-Unique-Royal" />
+         <property name="Text"            value="Cohorts attached to this card gain +2S" />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="393ac6e2-4e12-458b-bed6-0676d497155a" name="Actuacte Ixit">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="1" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Ord-Wizard" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="5bd34043-1dee-464f-8d69-279cc2fb4b27" name="Cao Covah">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="4" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="10" />
+         <property name="Food Cost"       value="3" />
+         <property name="Keywords"        value="Ord-Wizard-Champion-Unique-Raid +1-Carry +1" />
+         <property name="Text"            value="Summer: If you have attached an item or spell to a hero this turn, draw one card." />
+         <property name="Fate Value"      value="5" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="13f9341f-7935-4023-be1a-c6c351651c1b" name="Ecehatl">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Ord-Questor-Wizard" />
+         <property name="Text"            value="Summer, 1 food: Bow this card. Draw one card." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d2a1a8d8-896b-4fa0-8e4e-84fd8f0f1e7d" name="Keshie">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Ord" />
+         <property name="Text"            value="This card gains a +2S/+2W while she is the only hero in your army at the current battle." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="7833e037-a78f-42c0-9ed0-6f3f88ad83bc" name="Pocatl">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="7" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Ord-Wizard-Zealous" />
+         <property name="Text"            value="Summer: Discard the top card of your deck. If it is an item or spell, add one food to one of your castles." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="23203e7d-5609-457e-948f-33f0c49e5ca1" name="Torin Quickhand">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Ord" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="4" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Ord-Questor-Wizard-Gnome-Raid +1" />
+         <property name="Text"            value="Raid: Bow an opposing hero with lower Will." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="e9e5401d-207c-4e4d-8724-af9ba5f7dc22" name="Fortunata">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Unaligned" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="5" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Unaligned-Zealous-Unique" />
+         <property name="Text"            value="This card may remain bowed during the Spring Phase. Summer: Bow this card. Target hero with 3 Will or lower cannot assign to or move into an attacking army (but may raid) while this card is bowed." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="baaea8bc-3158-4906-b451-e3aec22e2a4a" name="Mickeloso">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Unaligned" />
+         <property name="Strength"        value="3" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="7" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Unaligned-Zealous-Renowned-Duelist" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b559c27e-65f6-4e8e-a6f9-e4ed1c1b23a4" name="Nomhotep">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Unaligned" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Unaligned-Zealous-Undead" />
+         <property name="Text"            value="Autumn, 2 food: Move this card from your buried pile into play." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="72a98f7d-50cd-40d1-ac2a-dfaf8b689c05" name="Zahir">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Unaligned" />
+         <property name="Strength"        value="0" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Unaliagned-Renowned-Raid -1" />
+         <property name="Text"            value="You cannot bring this card into play unless you control another hero." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d5684a70-d859-4814-abdf-d4ebee64a8d7" name="Capuchon of the Unseelie Court">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Sacred-Hat" />
+         <property name="Text"            value="This card's hero gains the Questor keyword." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="602390a4-9e43-4279-b1df-ce43185a1e97" name="Excel R-8">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="2" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Ord-Unique-Weapons" />
+         <property name="Text"            value="Can only be attached to an Ord hero. When the defender uses food tokens to absorb damage from this card's hero engaging, put those food tokens onto this card's hero." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="29e430c3-2cee-43fe-92bd-9630412f9824" name="Major Moffett's Airlift">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="8" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Unique" />
+         <property name="Text"            value="Battle: Bow this card. Move this unit into the current battle. Battle: Bow this card. Move this unite home without bowing." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="ef8ee156-0f07-4bd5-9391-bd5de327eb7a" name="Staff of Fate">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="9" />
+         <property name="Will"            value="3" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Weapon-Token-Unique" />
+         <property name="Text"            value="May not be included in decks." />
+         <property name="Fate Value"      value="0" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="1d331f2c-0bec-4565-9cf7-f72cd18293a1" name="Steph's Revenge">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="6" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Weapon" />
+         <property name="Text"            value="After one of your heroes in the current battle is buried as the result of an opponent's action (ability or engagement), straighten one of your heroes in the current battle." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="aa69a243-8533-4772-b93b-99ffb5b7e049" name="Three Coins of the Prince">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Target a cohort in play that can legally attach to this card's hero. Attach that cohort to this card's hero; it is under your control until it leaves play. Bury this card." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d3c4b097-44bf-42b9-9d00-d9c3e8c9b138" name="Xalfian Amulet">
+         <property name="Type"            value="Item" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="1" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Epic-Holy" />
+         <property name="Text"            value="Autumn: Bury this card. If this card's hero is unbowed at the end of this turn, you do not lose the game for having no food." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="49d6895d-dacc-4adf-9d13-ad2447709bc7" name="Bazaar">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="Bows for 2 gold. Bows for 3 gold if you are Ordained." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="5fb0dedb-4ef3-41f1-8eab-36853616be6d" name="Burning Marketplace">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="4" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Autumn: Bow and bury this card. Target a property in play. Bury that property unless it's controller targets and discards 1 of his or her food tokens." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 3 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="202822c3-9b14-416a-a7bb-5a4bb33bcdec" name="Cache of Secrets">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 3 gold. Bows for 4 gold when paying for an item or cohort." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="ead75ecf-a72e-43f6-845a-9a551b7eadbd" name="Corrupted Mine">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Malchior-Mine" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="f8b5ceed-6344-44b9-b18b-3b3b8d36a680" name="Displaced Bunker">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Displaced" />
+         <property name="Text"            value="Summer/Autumn: Bury this card. Add one food token to one of your castles." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 2 gold; discard 1 food if you do this." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4b5a5565-82f4-44b0-8976-b4ffc690c83a" name="Exotic Mounts">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Bury this card. Move your target hero without cohorts into the current battle, or from the current battle to an unresolved battle." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 2 gold. " />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="33f10cf6-dab0-41d2-8504-2310a6d92230" name="Extraplanar Obelisk">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="5" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Unique-Holy" />
+         <property name="Text"            value="This card increases your maximum hand size by one." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="Bows for 4 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="bbf679f5-263b-4f29-8d4e-e8f3ee789a6b" name="Library">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Bow this card. Draw 2 cards. Discard 2 cards." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b1402505-7f6e-49b6-9be0-44bd55bdffbb" name="Motte and Bailey">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="Starts in play." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="0fa95a14-5c13-429a-8027-534d1949b5b6" name="Mysterious Workshop">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Ord" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="Bows for 1 gold. Bows to produce 2 gold when paying for an item; discard 1 food if you do this." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="018a9d42-0562-4853-a2bb-8249c6e24357" name="Quantum Reactor">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Bury this card. Bury any number of your other unbowed properties. Draw cards equal to the number of other properties buried." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="82e402c7-d2e3-4645-8ae6-45bba4874b49" name="Quezca'at">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="4" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Advisor-Holy-Unique" />
+         <property name="Text"            value="Summer, 1 food: Bow this card. For the rest of this turn, after a player declares an attack on you, that player discards 2 food." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="Bows for 3 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="be52e776-b585-4a23-84cf-d61b56e2a30a" name="Salt Mine">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Mine" />
+         <property name="Text"            value="Summer: Bury this card. Attach a 1S Conscript cohort token to your target hero." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="9dec1d1a-ee48-4b1e-9fef-6ea855ccf2c9" name="Sarcophagus">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Ixhasa" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="Bows for 1 gold. Bows for 2 gold; discard 1 food if you do this." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="a38738df-a609-4f52-8c8a-cb8cd28921f4" name="Simm's Tomb">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Advisor" />
+         <property name="Text"            value="Summer: Bury this card. Target a quest in your discarded pile or buried pile and add it to your hand." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="Bows for 1 gold plus 2 additional gold if you have a quest in play." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="003742dc-86df-4d6b-bcc5-12afaa1a71f4" name="Spice Mine">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Mine" />
+         <property name="Text"            value="Summer: Bury this card. Give a hero -2S." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="dd89e883-e8b1-4800-b946-89f9c961b0ff" name="The Queen's Chamber">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="3" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="Summer: Search your deck for a quest. Reveal it and put it into your hand. Shuffle your deck. Bury this card." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4de4bbda-2d68-494e-8eb8-8ecbff88f055" name="Training Grounds">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="React: After an opposing unit engages, before determining immunity, reduce the damage of the engagement by 1. Bury this card." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="Bows for 1 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="13c45bc8-5bd6-4888-82d1-b921a4d6d2d3" name="Valiant Squire">
+         <property name="Type"            value="Property" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Holden-Advisor" />
+         <property name="Text"            value="Summer: Bury this card. Place a target quest from your discard pile into your hand." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="Bows for 1 gold." />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="3ff444d0-9ad1-4589-ad2b-9b33ab2723cb" name="A Desperate Offer!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Battle/Summer: Bow this card. Target another player's unbowed hero. That player chooses either to bow that hero or to have you gain 4 Renown." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="7" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="6220d750-6610-424d-8338-328f6606528f" name="A Desperate Offer?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Complete after you have used four Summer abilities, each from a different card." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="3" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="37d4d7db-4340-43eb-9f34-c02d8049dadc" name="A Most Peculiar Lamp!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Summer: Bow this card. Your target hero gains +2S." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="6" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="deda292b-0901-4d1a-8bd1-597600b613a7" name="A Most Peculiar Lamp?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="6" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Complete after you bury an opponent's castle (in battle or via card effect)." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="4" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="8a51b54c-25b8-4f4a-a9ef-68a3cd557c9e" name="Journey!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Battle/Summer: Bow this card. Attach a 1S Conscript cohort token to your target hero." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="7" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="9d8949c3-e1a3-4db3-8eca-630a47523fb2" name="Journey?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="2" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Complete if your heroes here total 7 Will or more at the start of the Winter Phase. When completed or buried, move all heroes here home. Heroes here cannot leave or straighten. Summer: Move your target unbowed hero onto this quest and bow it. You may use this ability multiple times in a turn." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="5" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="db93ed31-7656-4fb6-b4c1-f5eafc07b040" name="Rescue the Hostage!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Raid: Bow this card. Target hero gains an additional Carry +1." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="7" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="2fe88943-31e9-41df-b7d6-5214e8346407" name="Rescue the Hostage?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Complete if you raid food from an enemy's castle and lose no food to raids during the Autumn Phase." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="3" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="517b59af-959b-4743-9fe3-f4a7b53ed8bb" name="Staff of Fate!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Summer: Bury this card. Attach a +9S/+3W unique weapon token to your target hero." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="6" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="6e84a1a1-71f2-4d82-b80a-a9a22a8e59ea" name="Staff of Fate?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Complete by discarding 1 hero, 1 item, 1 spell, 1 cohort and 1 tactic from your hand as a Summer action." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="1" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d14dba02-553a-47f0-8475-099b04265655" name="The Apple of Life!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Summer: Bury this card. Place a target hero from your buried pile into play. Summer: Bury this card. Each player may discard five food tokens. If a player cannot or does not, bow all of that player's Undead cards." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="15" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="8b28152d-dfd4-4be9-9a30-56cd7050ed18" name="The Apple of Life?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="8" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="You cannot play this card if you have been attacked this turn. Bow your target hero or bury this card. Complete if you lose no castles during the Summer Phase." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="5" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4036c1f3-f269-4bf2-abf5-e7ea4a2cda92" name="The Biggest Turnip">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="1" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest (stays in play)" />
+         <property name="Text"            value="Complete as soon as it is played (you gain no extra Renown). Summer: Bow this card. Target hero gains the Questor keyword." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="2" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="f33db1f9-a1a0-450d-9795-b71f42da8994" name="The Fallen Outcast!">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Completed Quest-Token" />
+         <property name="Text"            value="Summer: Straighten your target hero." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="10" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="552a3ef6-8ff0-4343-a65a-929aa17d96aa" name="The Fallen Outcast?">
+         <property name="Type"            value="Quest" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="3" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Complete when a hero is buried due to an engagement from a hero with lower printed Strength (printed Strength includes bonuses from items)." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="5" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="a1ca527e-90dd-4107-93d9-720977c1cf68" name="Divination">
+         <property name="Type"            value="Spell" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Discard this card. Discard the top card of your deck. If that card's Fate value matches your Stronghold's Fate value, search your deck for one card, put it in your hand, and shuffle your deck." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="fa458710-e4f0-418d-89f1-7db3699a283c" name="Flaming Hand of Fiery Doom">
+         <property name="Type"            value="Spell" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="2" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Bury all heroes with 1S or less at the current battle. Bury all cohorts with 2S or less at the current battle. Discard this card." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="305a299a-6043-462d-b379-b8ef4168277f" name="Illumination">
+         <property name="Type"            value="Spell" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="1" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Look at the top card of one player's deck. Discard that card or place it back on top of that deck. If you discarded it, bow this card's hero." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d9db34d5-4372-4c44-a549-6933c6c3e6d0" name="Torfald's Cards">
+         <property name="Type"            value="Spell" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="1" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Target your hero. Discard the top card of your deck. If that card's Fate value equals the Fate value of the hero, give the hero a +2S/+2W marker. If not, discard that hero. Discard this card." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="09fa3aa1-a502-4c44-92a2-77031d3c2807" name="Protectorate of Malchior">
+         <property name="Type"            value="Stronghold" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="18" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Malchior-Renowned" />
+         <property name="Text"            value="Bows for 4 gold. Battle/Summer: Bow your target unbowed mine. Add +2S to your target hero." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="3" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b42da7f2-967b-44b8-8882-13c4859d2631" name="The Displaced">
+         <property name="Type"            value="Stronghold" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="20" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Displaced-Mercenary" />
+         <property name="Text"            value="Bows for 3 gold. Each of your Displaced heroes gains an additional Raid +1 when raiding (but not when defending)." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="3" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d5fce234-f965-4c52-a8cf-846c4dc717e3" name="The Dread Army Ixhasa">
+         <property name="Type"            value="Stronghold" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="19" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Ixhasa-Zealous" />
+         <property name="Text"            value="Bows for 4 gold. If this card is unbowned when you bury one or more opposing heroes in a battle, attach a 1S Zombie Undead cohort token to one of your heroes in that battle." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="4" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="5a6c6a9f-efa6-4e47-bc4d-080bee63464a" name="The Kingdom of Holden">
+         <property name="Type"            value="Stronghold" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="20" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Holden-Renowned" />
+         <property name="Text"            value="Bows for 3 gold. Increase your maximum hand size by one while you have a quest in play. Summer: Bury a target quest from your hand. Draw a card." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="5" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="faeaff02-9391-4fd2-81db-eee20be09934" name="The Ord">
+         <property name="Type"            value="Stronghold" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="19" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Ord" />
+         <property name="Text"            value="Bows for 4 gold. Your castles have +1 Might against raids. Summer: Bows this card. Ignore the food cost of the next hero, item, property or spell card you play." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="3" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4d7e019d-9681-4755-88d3-dae63feb4e34" name="At Your Command">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Add +2S to a target attacking hero. Battle: Double the Strength of a target cohort attached to your Malchior hero. Engage that cohort. Bury that cohort after the end of the battle." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="499741c7-ce0d-4677-a04c-921b286db03b" name="Aura of Fear">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Target an opposing hero. That hero's player may choose to discard food tokens equal to the hero's food cost. If that player does not, bow the hero." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="f6bfb279-dc7f-4df1-aa05-b03139214dde" name="Blight">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Engage your target unbowed opposed hero. Discard a card. Increase the damage by the card's Fate value. React: After an opposing hero engages but before determining immunity, discard a card. Decrease the damage of the card's Fate value." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4809b26b-ef22-47be-9fa1-2961505538f2" name="Blitzkrieg">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="React: Play after the attacker chooses a battle to resolve, but before the defender's first action. The attacker performs the first action in the current battle instead of the defender." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="6c058232-711b-441d-aa2f-bdad270adc30" name="Bountiful Harvest">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="1" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer/Autumn: Add 1 food token to one of your  castle." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="c7e7ff4b-b41c-4aa1-a72d-f3ee94d6f92c" name="Brutal Screams in the Night">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Autumn: Target a hero with one or more food tokens. Replace each of those food tokens with a -1W marker." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="96a921bc-cff0-4a6e-bc9b-d7933becc6f1" name="Burn the Crops">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Target your unbowed hero and another player's hero with equal or lower Will. That player may choose to discard 2 food tokens. If that player does not, then that player bows his or her targeted hero." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="282d80fb-fcf5-44a9-9e53-c50486237cb2" name="Captain Greya's Maneuver">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="React: Play after a tactic is played during a battle. Bury your target unbowed property. Negate all effects of the tactic." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b5086c46-6555-4bad-b721-af55ce478db1" name="Caught!">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Raid: Target your defending hero. Create a battle at this castle with this raid's unit(s) assigned. Other heroes cannot move into this battle. After the battle ends, the attacker does not bow and go home. Instead, resume the raid." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="f98255b6-f9a8-4e1a-a933-0ea67b11eaed" name="Consistent Tactics">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="3" />
+         <property name="Keywords"        value="Epic" />
+         <property name="Text"            value="Summer: Use one Summer ability on a target tactic in your discard pile. Bury this card. Bury that tactic." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="1b3d7fff-22f7-4329-819b-c09ea70b4b9e" name="Death from Above">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Engage your target defending hero, and any cohorts in that unit you wish, for at least 1 damage. The attacking player cannot declare any cards immune to this damage." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="ff4b57e4-a0de-4cdc-94ce-f5e04ce968ad" name="Feast of the Damned">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: If, in the current battle, you have more Undead heroes in your army than the total number of heroes in the opposing army, the opposing player must bury a hero in the battle." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="9be57c9e-6609-45e3-98f7-6552bbae2071" name="Leadership">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Your target cohort gains Strength equal to the Will of its hero. Engage that a cohort." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="f185b616-aa4e-4dab-a084-a18243ccbe93" name="Lost to the Nexus">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="1" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Send one target attacking unit home the current battle, bowed." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="67f5aaa7-672e-4b25-afe3-1f2273fc0fbe" name="Mano a Mano">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="If you use this card as your stealth card, play it face up and draw a card." />
+         <property name="Fate Value"      value="4" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="b4225d5c-a1b3-41b6-92e0-64c34ef95e59" name="Negotiation">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Bow your target hero. Bow a target hero with a lower Glory." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="16f49a9c-a6e0-4e40-a4d6-a16a08add6bd" name="Plague of Locusts">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="X" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer/Autumn: Bury this card. Bury a target non-Epic property. X is equal to twice the printed gold cost of that property or 1, whichever value is greater." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="5db42dc3-f8aa-412b-8dfc-818c8cb0078a" name="Safeguard">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Bow your target unbowed defending hero. Move 2 food tokens from the current battle's castle to your hero. (Food tokens on heroes cannot be used to absorb damage.)" />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="7b333efa-ba35-4bba-81cc-3a5e1e2faa81" name="Slip Behind the Veil">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Your target hero cannot be targeted by other players until your hero engaged or the Autumn Phase ends." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="ea17748e-4acc-4fb5-b27c-1d35da47b915" name="Snow in Summer">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Send a target hero without cohorts home from the current battle. If you are the defender, you can play this at a battle where you have no units." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="4b9b215e-2cfe-4fdf-9ae6-6671a91cbdd3" name="Soul of a Dragon">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="1" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="React: Play after your target hero absorbs damage from an engagement. That hero absorbs all damage from that engagement." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="eac93bef-0f2e-4057-a351-f8c91c7a683a" name="Tactical Acumen">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Move your target hero with at least 3 Will from the current battle to an unresolved battle at another castle." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="8adaa853-ea82-42a3-8133-8e08dad85af0" name="Testing Torfald's Cards">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Bow your target unbowed hero. Discard a card from your hand face up. Target another player. That player discards a card from his or her hand or the top of his or her deck. If your card's Fate value is higher, that player places three food tokens from his or her castles onto your hero; otherwise bury your hero." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="d31ea5c3-d170-4d22-a803-597783952868" name="That Which Does Not Kill Us">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Target another player's hero. Discard the top card of that player's deck. If the card's Fate value exceeds the hero's Fate value, bury the hero; otherwise the hero gains a +2S/+2W marker." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="7552edf9-2782-40e3-8d7b-228226179fa8" name="The Oracle's Answer">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="" />
+         <property name="Fate Value"      value="6" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="a450401c-bbf4-4be4-bc7e-a3e19f56ec52" name="The Tree of Life Blooms">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="If you discard this card to absorb damage, or because of another player's card effect, draw two cards." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="fc7e1050-553f-4a5e-886c-07b07ef7e127" name="Thwart">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="React: After a quest is put into play, bow your target hero. Discard the quest unless its player bows heroes with a total Glory of 3 or more. React: Play after an opposing unit engages, but before determining immunity. Reduce the damage by 2." />
+         <property name="Fate Value"      value="3" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="da3ba623-62f2-4970-b57e-208c7fc91254" name="Torrential Rain">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Until the end of the current battle, heroes have -3S when they engage." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="be7ded38-960a-4249-adbf-69ffa0c0c9b6" name="Touch of Shad-Hujem">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Battle: Your target hero gains +2S for the rest of the battle. Add a -1W marker to that hero. Engage that hero." />
+         <property name="Fate Value"      value="1" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="7fdcdaf3-3323-4a7d-8547-36b6952de445" name="Undermarket Dealings">
+         <property name="Type"            value="Tactic" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="" />
+         <property name="Text"            value="Summer: Bury this card. Discard your hand. If this is your first action this turn, draw cards up to your hand size." />
+         <property name="Fate Value"      value="2" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+  </cards>
+</set>

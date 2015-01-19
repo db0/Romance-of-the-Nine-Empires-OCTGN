@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Markers &amp; Tokens" id="e02d6460-77d8-4053-ad59-3d765003cfaf" 
+     gameId="629549ab-135c-46f1-ab1b-77cb6347dbf8" version="3.0.4" gameVersion="3.0.4"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CardSet.xsd">
+  <markers>
+    <marker name="+2/+2"                              id="9228e87d-b0ce-4e42-8fc4-45dc2dcaf430"/>
+    <marker name="Undead"                             id="359a9449-fd99-47e7-a9d4-cdfe792194fb"/>
+    <marker name="-1 Strength"                        id="3f665156-9b9c-445f-87b3-5b2a0b3d1643"/>
+    <marker name="-1 Will"                            id="9e9e1478-90fd-401b-b12f-f24f9fe53b3a"/>
+    <marker name="Food"                            id="9e9e1478-90fd-401b-b12f-f24f9fe53b3a"/>
+  </markers>
+  <cards>
+  </cards>
+</set>
