@@ -7,8 +7,116 @@
     <marker name="Undead"                             id="359a9449-fd99-47e7-a9d4-cdfe792194fb"/>
     <marker name="-1 Strength"                        id="3f665156-9b9c-445f-87b3-5b2a0b3d1643"/>
     <marker name="-1 Will"                            id="9e9e1478-90fd-401b-b12f-f24f9fe53b3a"/>
-    <marker name="Food"                            id="9e9e1478-90fd-401b-b12f-f24f9fe53b3a"/>
+    <marker name="Food"                               id="6bc7c60b-4b69-4b19-953d-6c377f8ce41e"/>
   </markers>
   <cards>
+      <card id="b7a9ea60-23a9-41e0-874f-7af817f085b3" name="Conscript">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Token" />
+         <property name="Text"            value="May not be included in decks" />
+         <property name="Fate Value"      value="0" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="f5ab75c2-1556-40eb-8751-384032fb9b04" name="Crypt fodder">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="0" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Undead-Token" />
+         <property name="Text"            value="Cannot be included in decks" />
+         <property name="Fate Value"      value="0" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="ad5b21a1-6364-4c37-bf6c-44bbcc0694b2" name="Zombie">
+         <property name="Type"            value="Cohort" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Token" />
+         <property name="Text"            value="May not be included in decks" />
+         <property name="Fate Value"      value="0" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="1a2630dc-7e8b-4f25-854c-907750f68128" name="Peasant Levy">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Unaligned-Token" />
+         <property name="Text"            value="Cannot be included in decks. Bury this hero when the battle ends (whether the hero is in the battle or not)." />
+         <property name="Fate Value"      value="0" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="9c5b7cd2-9d64-4c10-8fbe-7890c6756ff9" name="Scenery">
+         <property name="Type"            value="Castle" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="1" />
+         <property name="Will"            value="" />
+         <property name="Glory"           value="" />
+         <property name="Storage"         value="3" />
+         <property name="Point Cost"      value="0" />
+         <property name="Gold Cost"       value="" />
+         <property name="Food Cost"       value="" />
+         <property name="Keywords"        value="Token" />
+         <property name="Text"            value="Cannot be included in decks." />
+         <property name="Fate Value"      value="" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
+      <card id="1b71948c-9c58-412a-a9c6-945d874008cd" name="The Purple Ninja">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="" />
+         <property name="Strength"        value="2" />
+         <property name="Will"            value="1" />
+         <property name="Glory"           value="0" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="0" />
+         <property name="Food Cost"       value="0" />
+         <property name="Keywords"        value="Unaligned-Token" />
+         <property name="Text"            value="Cannot be included in decks. Bury this hero when the battle ends (whether the hero is in the battle or not)." />
+         <property name="Fate Value"      value="0" />
+         <property name="Gold Production" value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
   </cards>
 </set>
