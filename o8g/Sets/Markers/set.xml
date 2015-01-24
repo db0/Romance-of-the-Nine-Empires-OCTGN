@@ -9,6 +9,7 @@
     <marker name="-1 Will"                            id="9e9e1478-90fd-401b-b12f-f24f9fe53b3a"/>
     <marker name="Food"                               id="6bc7c60b-4b69-4b19-953d-6c377f8ce41e"/>
     <marker name="Ordained"                           id="0b2676b8-0a66-4e23-b1c7-e29fe109cd66"/>
+    <marker name="Used Ability"                       id="7209af6b-7e96-4775-874a-1eec4fa25859"/>
   </markers>
   <cards>
       <card id="b7a9ea60-23a9-41e0-874f-7af817f085b3" name="Conscript">
@@ -23,8 +24,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Token" />
          <property name="Text"            value="May not be included in decks" />
-         <property name="Fate Value"      value="0" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="0" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -41,8 +42,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Undead-Token" />
          <property name="Text"            value="Cannot be included in decks" />
-         <property name="Fate Value"      value="0" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="0" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -59,8 +60,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Token" />
          <property name="Text"            value="May not be included in decks" />
-         <property name="Fate Value"      value="0" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="0" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -77,8 +78,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Unaligned-Token" />
          <property name="Text"            value="Cannot be included in decks. Bury this hero when the battle ends (whether the hero is in the battle or not)." />
-         <property name="Fate Value"      value="0" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="0" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -95,8 +96,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Token" />
          <property name="Text"            value="Cannot be included in decks." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -113,8 +114,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Unaligned-Token" />
          <property name="Text"            value="Cannot be included in decks. Bury this hero when the battle ends (whether the hero is in the battle or not)." />
-         <property name="Fate Value"      value="0" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="0" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>

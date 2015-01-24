@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
+  <section name="Faction" shared="False">
+    <card qty="1" id="d5fce234-f965-4c52-a8cf-846c4dc717e3">The Dread Army Ixhasa</card>
+  </section>
+  <section name="Strongholds" shared="False">
+    <card qty="1" id="0b14da44-669c-4204-8b1e-dedf1769d599">Caldera Fort</card>
+    <card qty="1" id="29f7ef2f-3ec6-40ff-b96d-912cf3ee3c95">Labyrinth of Bone</card>
+    <card qty="1" id="21091ecf-d78c-4ee6-9a07-e437237a96eb">Protected Farmland</card>
+    <card qty="1" id="b6824405-a72e-41f1-ba5a-6daa211e7759">The Sunken Pyramid</card>
+    <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
+  </section>
+  <section name="Deck" shared="False">
+    <card qty="2" id="cc3a6ef3-5eec-4021-9fed-331a8207c27f">The Emissary</card>
+    <card qty="2" id="e9e5401d-207c-4e4d-8724-af9ba5f7dc22">Fortunata</card>
+    <card qty="1" id="82e402c7-d2e3-4645-8ae6-45bba4874b49">Quezca'at</card>
+    <card qty="3" id="b559c27e-65f6-4e8e-a6f9-e4ed1c1b23a4">Nomhotep</card>
+    <card qty="2" id="397ec22e-88b7-4bc5-a366-9e96bc22ecc2">Pharoh Rasha</card>
+    <card qty="3" id="1516a590-cceb-4ce2-b07e-c5e5c2ffff90">Scourge</card>
+    <card qty="1" id="079b78d9-deaf-4bdb-92b6-ac77cb6cc767">Skafla</card>
+    <card qty="3" id="5fb0dedb-4ef3-41f1-8eab-36853616be6d">Burning Marketplace</card>
+    <card qty="1" id="33f10cf6-dab0-41d2-8504-2310a6d92230">Extraplanar Obelisk</card>
+    <card qty="1" id="bbf679f5-263b-4f29-8d4e-e8f3ee789a6b">Library</card>
+    <card qty="3" id="9dec1d1a-ee48-4b1e-9fef-6ea855ccf2c9">Sarcophagus</card>
+    <card qty="3" id="4de4bbda-2d68-494e-8eb8-8ecbff88f055">Training Grounds</card>
+    <card qty="2" id="499741c7-ce0d-4677-a04c-921b286db03b">Aura of Fear</card>
+    <card qty="2" id="c7e7ff4b-b41c-4aa1-a72d-f3ee94d6f92c">Brutal Screams in the Night</card>
+    <card qty="2" id="96a921bc-cff0-4a6e-bc9b-d7933becc6f1">Burn the Crops</card>
+    <card qty="1" id="f98255b6-f9a8-4e1a-a933-0ea67b11eaed">Consistent Tactics</card>
+    <card qty="2" id="ff4b57e4-a0de-4cdc-94ce-f5e04ce968ad">Feast of the Damned</card>
+    <card qty="3" id="7552edf9-2782-40e3-8d7b-228226179fa8">The Oracle's Answer</card>
+    <card qty="1" id="16f49a9c-a6e0-4e40-a4d6-a16a08add6bd">Plague of Locusts</card>
+    <card qty="3" id="ea17748e-4acc-4fb5-b27c-1d35da47b915">Snow in Summer</card>
+    <card qty="2" id="4b9b215e-2cfe-4fdf-9ae6-6671a91cbdd3">Soul of a Dragon</card>
+    <card qty="3" id="8adaa853-ea82-42a3-8133-8e08dad85af0">Testing Torfald's Cards</card>
+    <card qty="2" id="d31ea5c3-d170-4d22-a803-597783952868">That Which Does Not Kill Us</card>
+    <card qty="3" id="fc7e1050-553f-4a5e-886c-07b07ef7e127">Thwart</card>
+    <card qty="2" id="a450401c-bbf4-4be4-bc7e-a3e19f56ec52">The Tree of Life Blooms</card>
+    <card qty="2" id="7fdcdaf3-3323-4a7d-8547-36b6952de445">Undermarket Dealings</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

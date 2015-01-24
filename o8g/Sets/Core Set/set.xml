@@ -19,8 +19,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="You cannot redistribute food to or from this castle during the Winter Phase (you may add raided food here)." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -37,8 +37,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="After all units have been assigned in an Attack Phase but before selecting a battle to resolve, bury a random card from each army assigned to this castle, along with any cards attached to the destroyed card." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -55,8 +55,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Displaced-Epic" />
          <property name="Text"            value="Summer, 1 food (from this card): Bow this card. Draw a card." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -73,8 +73,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Holden-Epic" />
          <property name="Text"            value="Food tokens on this card each absorb 2 points of damage." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -91,8 +91,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="After a hero is assigned or moved to a battle at this castle, that her's player discards food equal to that hero's food cost." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -109,8 +109,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="React: After you bow a property for gold, bow this card to produce one extra gold." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -127,8 +127,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Malchior-Epic" />
          <property name="Text"            value="After the first time each turn you bury an enemy castle, add one food token to this castle." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -145,8 +145,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Ord-Epic" />
          <property name="Text"            value="Battle: Target a hero at the current battle. Discard the top card of your deck. If it's Fate value is higher than the hero's Glory, send that hero home. (You must have a unity present to use this ability.)" />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -163,8 +163,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Each hero without the undead keyword has a -1S/-1W while at a battle here." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -181,8 +181,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="The attacker takes the first action in battle at this castle." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -199,8 +199,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="Summer, 3 gold: Bow this card. Add one food token to this card." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -217,8 +217,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="This castle can hold any number of food tokens" />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -235,8 +235,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="Battle, 1 food (from this card): Send one target attacking unit home from the current battle. (You must have a unit present to use this ability.)" />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -253,8 +253,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Ixhasa-Epic" />
          <property name="Text"            value="Autumn, 2 food (from this card): Place a target hero from your buried pile into play. That hero gains an Undead keyword marker." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -271,8 +271,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="React: After a wizard attaches a spell, bow this card. Draw a card." />
-         <property name="Fate Value"      value="" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -289,8 +289,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="This card's hero gains an additional Carry +1." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -307,8 +307,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="After you attach this card to a hero, draw a card." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -325,8 +325,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Brutal" />
          <property name="Text"            value="Each card in this unity gains the Brutal keyword." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -343,8 +343,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="After you attach this card to a hero, add food equal to that hero's food cost to one of your castles." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -361,8 +361,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="React: When this card absorbs damage, discard a card. This card absorbs additional damage equal to the Fate value of that card." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -379,8 +379,8 @@
          <property name="Food Cost"       value="3" />
          <property name="Keywords"        value="Displaced-Duelist-Champion-Unique-Raid +2-Carry +1" />
          <property name="Text"            value="React: After a tactic card is played at the current battle, cancel its effects." />
-         <property name="Fate Value"      value="5" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="5" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -397,8 +397,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Displaced-Wizard" />
          <property name="Text"            value="When this card is assigned to raid, do not play a stealth card on him until after any defending hero has been assigned. The defending hero's stealth card must be played face up." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -415,8 +415,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Displaced-Renowned" />
          <property name="Text"            value="This card gains +2S while defending" />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -433,8 +433,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Displaced-Renowned-Questor" />
          <property name="Text"            value="Autumn: This unit raid. (No other units raid. This does not replace your normal raid. You may use this action if you have already raided this turn." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -451,8 +451,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Displaced-Unique-Carry +1-Raid Master" />
          <property name="Text"            value="Raid: If you have no units in the current raid, move this unit into the current raid and play a stealth card on him." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -469,8 +469,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Displaced-Holy-Unique-Raid +1" />
          <property name="Text"            value="If this card takes a castle's last food token in a raid, bury that castle." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -487,8 +487,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Displaced-Cult Hero-Carry +1" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -505,8 +505,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Holden-Mercenary" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -523,8 +523,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Holden-Messenger" />
          <property name="Text"            value="Battle: If there are opposing units int he current battle, move your target hero to the current battle." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -541,8 +541,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Holden-Unique-Royal-Queen of Holden" />
          <property name="Text"            value="Summer: Bow this card. Place a target quest from your buried pile into your hand." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -559,8 +559,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Holden-Questor-Raid +1" />
          <property name="Text"            value="This card has an additional Raid +1 while defending." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -577,8 +577,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Holden-Questor-Royal-Champion-Unique" />
          <property name="Text"            value="Summer: If you have played a quest this turn, draw a card." />
-         <property name="Fate Value"      value="5" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="5" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -595,8 +595,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Holden-Questor" />
          <property name="Text"            value="This card has +2S while there are more units in the opposing army." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -613,8 +613,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Holden-Questor-Unique-Fae-Sidhe-Seelie" />
          <property name="Text"            value="This card has a +2S while in the same location as Myriad Buxtehude. Summer: Bow this card. Bow a target hero with lower Will." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -631,8 +631,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Ixhasa-Wizard-Champion-Duelist-Unique" />
          <property name="Text"            value="Each opponent discards 2 food tokens which this card enters play. Battle: Add a 0S, 1W, 0R, Crypt Fodder Undead hero token to this army." />
-         <property name="Fate Value"      value="5" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="5" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -649,8 +649,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Ixhasa-Questor-Undead-Priest" />
          <property name="Text"            value="Draw 1 card when this card enters play. Summer/Autumn: Look at the top card of another player's deck. Return the card to the top of the deck or place it at the bottom of the deck." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -667,8 +667,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Ixhasa-Unique-Undead-Horror" />
          <property name="Text"            value="Autumn: Bow this card. Reduce his Strength to zero. Give a target hero a -1S marker." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -685,8 +685,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Ixhasa-Unique-Courtier" />
          <property name="Text"            value="Summer: Bow this card and discard one or two food tokens. The Ordained player discards an equal number of food tokens." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -703,8 +703,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Ixhasa-Wizard-Undead" />
          <property name="Text"            value="This card has +1S for each Undead hero and cohort in it's army." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -721,8 +721,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Malchior-Shield of the Protectorate" />
          <property name="Text"            value="Bowed heroes cannot absorb damage when this card engages." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -739,8 +739,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Malchior-Mercenary-Duelist" />
          <property name="Text"            value="Summer, 2 gold: Attach a 1S Conscript cohort token to your target hero." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -757,8 +757,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Malchior" />
          <property name="Text"            value="This card has an additional +1S while attacking." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -775,8 +775,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Malchior-Brutal-Questor" />
          <property name="Text"            value="After this card assigns to a battle, discard the top card of your deck. Add the card's Fate value to this card's Strength until the end of the battle." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -793,8 +793,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Malchior-Unique-Royal" />
          <property name="Text"            value="Cohorts attached to this card gain +2S" />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -811,8 +811,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Ord-Wizard" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -829,8 +829,8 @@
          <property name="Food Cost"       value="3" />
          <property name="Keywords"        value="Ord-Wizard-Champion-Unique-Raid +1-Carry +1" />
          <property name="Text"            value="Summer: If you have attached an item or spell to a hero this turn, draw one card." />
-         <property name="Fate Value"      value="5" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="5" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -847,8 +847,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Ord-Questor-Wizard" />
          <property name="Text"            value="Summer, 1 food: Bow this card. Draw one card." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -865,8 +865,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Ord" />
          <property name="Text"            value="This card gains a +2S/+2W while she is the only hero in your army at the current battle." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -883,8 +883,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Ord-Wizard-Zealous" />
          <property name="Text"            value="Summer: Discard the top card of your deck. If it is an item or spell, add one food to one of your castles." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -901,8 +901,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="Ord-Questor-Wizard-Gnome-Raid +1" />
          <property name="Text"            value="Raid: Bow an opposing hero with lower Will." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -919,8 +919,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Unaligned-Zealous-Unique" />
          <property name="Text"            value="This card may remain bowed during the Spring Phase. Summer: Bow this card. Target hero with 3 Will or lower cannot assign to or move into an attacking army (but may raid) while this card is bowed." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -937,8 +937,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Unaligned-Zealous-Renowned-Duelist" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -955,8 +955,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Unaligned-Zealous-Undead" />
          <property name="Text"            value="Autumn, 2 food: Move this card from your buried pile into play." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -973,8 +973,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Unaliagned-Renowned-Raid -1" />
          <property name="Text"            value="You cannot bring this card into play unless you control another hero." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -991,8 +991,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Sacred-Hat" />
          <property name="Text"            value="This card's hero gains the Questor keyword." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1009,8 +1009,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Ord-Unique-Weapons" />
          <property name="Text"            value="Can only be attached to an Ord hero. When the defender uses food tokens to absorb damage from this card's hero engaging, put those food tokens onto this card's hero." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1027,8 +1027,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Unique" />
          <property name="Text"            value="Battle: Bow this card. Move this unit into the current battle. Battle: Bow this card. Move this unite home without bowing." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1045,8 +1045,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Weapon-Token-Unique" />
          <property name="Text"            value="May not be included in decks." />
-         <property name="Fate Value"      value="0" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="0" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1063,8 +1063,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Weapon" />
          <property name="Text"            value="After one of your heroes in the current battle is buried as the result of an opponent's action (ability or engagement), straighten one of your heroes in the current battle." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1081,8 +1081,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Target a cohort in play that can legally attach to this card's hero. Attach that cohort to this card's hero; it is under your control until it leaves play. Bury this card." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1099,8 +1099,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Epic-Holy" />
          <property name="Text"            value="Autumn: Bury this card. If this card's hero is unbowed at the end of this turn, you do not lose the game for having no food." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1117,8 +1117,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="Bows for 2 gold. Bows for 3 gold if you are Ordained." />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="Bows for 2 gold. Bows for 3 gold if you are Ordained." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1135,8 +1135,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Autumn: Bow and bury this card. Target a property in play. Bury that property unless it's controller targets and discards 1 of his or her food tokens." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 3 gold." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 3 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1153,8 +1153,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 3 gold. Bows for 4 gold when paying for an item or cohort." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 3 gold. Bows for 4 gold when paying for an item or cohort." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1171,8 +1171,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Malchior-Mine" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1189,8 +1189,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Displaced" />
          <property name="Text"            value="Summer/Autumn: Bury this card. Add one food token to one of your castles." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 2 gold; discard 1 food if you do this." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 2 gold; discard 1 food if you do this." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1207,8 +1207,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Bury this card. Move your target hero without cohorts into the current battle, or from the current battle to an unresolved battle." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 2 gold. " />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 2 gold. " />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1225,8 +1225,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Unique-Holy" />
          <property name="Text"            value="This card increases your maximum hand size by one." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="Bows for 4 gold." />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="Bows for 4 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1243,8 +1243,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Bow this card. Draw 2 cards. Discard 2 cards." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1261,8 +1261,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="Starts in play." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1279,8 +1279,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Ord" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="Bows for 1 gold. Bows to produce 2 gold when paying for an item; discard 1 food if you do this." />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="Bows for 1 gold. Bows to produce 2 gold when paying for an item; discard 1 food if you do this." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1297,8 +1297,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Bury this card. Bury any number of your other unbowed properties. Draw cards equal to the number of other properties buried." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1315,8 +1315,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Advisor-Holy-Unique" />
          <property name="Text"            value="Summer, 1 food: Bow this card. For the rest of this turn, after a player declares an attack on you, that player discards 2 food." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="Bows for 3 gold." />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="Bows for 3 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1333,8 +1333,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Mine" />
          <property name="Text"            value="Summer: Bury this card. Attach a 1S Conscript cohort token to your target hero." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1351,8 +1351,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Ixhasa" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="Bows for 1 gold. Bows for 2 gold; discard 1 food if you do this." />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="Bows for 1 gold. Bows for 2 gold; discard 1 food if you do this." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1369,8 +1369,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Advisor" />
          <property name="Text"            value="Summer: Bury this card. Target a quest in your discarded pile or buried pile and add it to your hand." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="Bows for 1 gold plus 2 additional gold if you have a quest in play." />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="Bows for 1 gold plus 2 additional gold if you have a quest in play." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1387,8 +1387,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Mine" />
          <property name="Text"            value="Summer: Bury this card. Give a hero -2S." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1405,8 +1405,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="Summer: Search your deck for a quest. Reveal it and put it into your hand. Shuffle your deck. Bury this card." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 2 gold." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 2 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1423,8 +1423,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="React: After an opposing unit engages, before determining immunity, reduce the damage of the engagement by 1. Bury this card." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="Bows for 1 gold." />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="Bows for 1 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1441,8 +1441,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="Holden-Advisor" />
          <property name="Text"            value="Summer: Bury this card. Place a target quest from your discard pile into your hand." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="Bows for 1 gold." />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="Bows for 1 gold." />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1459,8 +1459,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Battle/Summer: Bow this card. Target another player's unbowed hero. That player chooses either to bow that hero or to have you gain 4 Renown." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="7" />
          <property name="Instructions"    value="" />
       </card>
@@ -1477,8 +1477,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Complete after you have used four Summer abilities, each from a different card." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
       </card>
@@ -1495,8 +1495,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Summer: Bow this card. Your target hero gains +2S." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="6" />
          <property name="Instructions"    value="" />
       </card>
@@ -1513,8 +1513,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Complete after you bury an opponent's castle (in battle or via card effect)." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="4" />
          <property name="Instructions"    value="" />
       </card>
@@ -1531,8 +1531,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Battle/Summer: Bow this card. Attach a 1S Conscript cohort token to your target hero." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="7" />
          <property name="Instructions"    value="" />
       </card>
@@ -1549,8 +1549,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Complete if your heroes here total 7 Will or more at the start of the Winter Phase. When completed or buried, move all heroes here home. Heroes here cannot leave or straighten. Summer: Move your target unbowed hero onto this quest and bow it. You may use this ability multiple times in a turn." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
       </card>
@@ -1567,8 +1567,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Raid: Bow this card. Target hero gains an additional Carry +1." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="7" />
          <property name="Instructions"    value="" />
       </card>
@@ -1585,8 +1585,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Complete if you raid food from an enemy's castle and lose no food to raids during the Autumn Phase." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
       </card>
@@ -1603,8 +1603,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Summer: Bury this card. Attach a +9S/+3W unique weapon token to your target hero." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="6" />
          <property name="Instructions"    value="" />
       </card>
@@ -1621,8 +1621,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Complete by discarding 1 hero, 1 item, 1 spell, 1 cohort and 1 tactic from your hand as a Summer action." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="1" />
          <property name="Instructions"    value="" />
       </card>
@@ -1639,8 +1639,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Summer: Bury this card. Place a target hero from your buried pile into play. Summer: Bury this card. Each player may discard five food tokens. If a player cannot or does not, bow all of that player's Undead cards." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="15" />
          <property name="Instructions"    value="" />
       </card>
@@ -1657,8 +1657,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="You cannot play this card if you have been attacked this turn. Bow your target hero or bury this card. Complete if you lose no castles during the Summer Phase." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
       </card>
@@ -1675,8 +1675,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest (stays in play)" />
          <property name="Text"            value="Complete as soon as it is played (you gain no extra Renown). Summer: Bow this card. Target hero gains the Questor keyword." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="2" />
          <property name="Instructions"    value="" />
       </card>
@@ -1693,8 +1693,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Completed Quest-Token" />
          <property name="Text"            value="Summer: Straighten your target hero." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="10" />
          <property name="Instructions"    value="" />
       </card>
@@ -1711,8 +1711,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Complete when a hero is buried due to an engagement from a hero with lower printed Strength (printed Strength includes bonuses from items)." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
       </card>
@@ -1729,8 +1729,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Discard this card. Discard the top card of your deck. If that card's Fate value matches your Stronghold's Fate value, search your deck for one card, put it in your hand, and shuffle your deck." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1747,8 +1747,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Bury all heroes with 1S or less at the current battle. Bury all cohorts with 2S or less at the current battle. Discard this card." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1765,8 +1765,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Look at the top card of one player's deck. Discard that card or place it back on top of that deck. If you discarded it, bow this card's hero." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1783,8 +1783,8 @@
          <property name="Food Cost"       value="0" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Target your hero. Discard the top card of your deck. If that card's Fate value equals the Fate value of the hero, give the hero a +2S/+2W marker. If not, discard that hero. Discard this card." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1801,8 +1801,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Malchior-Renowned" />
          <property name="Text"            value="Bows for 4 gold. Battle/Summer: Bow your target unbowed mine. Add +2S to your target hero." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
       </card>
@@ -1819,8 +1819,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Displaced-Mercenary" />
          <property name="Text"            value="Bows for 3 gold. Each of your Displaced heroes gains an additional Raid +1 when raiding (but not when defending)." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
       </card>
@@ -1837,8 +1837,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Ixhasa-Zealous" />
          <property name="Text"            value="Bows for 4 gold. If this card is unbowned when you bury one or more opposing heroes in a battle, attach a 1S Zombie Undead cohort token to one of your heroes in that battle." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="4" />
          <property name="Instructions"    value="" />
       </card>
@@ -1855,8 +1855,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Holden-Renowned" />
          <property name="Text"            value="Bows for 3 gold. Increase your maximum hand size by one while you have a quest in play. Summer: Bury a target quest from your hand. Draw a card." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
       </card>
@@ -1873,8 +1873,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="Ord" />
          <property name="Text"            value="Bows for 4 gold. Your castles have +1 Might against raids. Summer: Bows this card. Ignore the food cost of the next hero, item, property or spell card you play." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
       </card>
@@ -1891,8 +1891,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Add +2S to a target attacking hero. Battle: Double the Strength of a target cohort attached to your Malchior hero. Engage that cohort. Bury that cohort after the end of the battle." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1909,8 +1909,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Target an opposing hero. That hero's player may choose to discard food tokens equal to the hero's food cost. If that player does not, bow the hero." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1927,8 +1927,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Engage your target unbowed opposed hero. Discard a card. Increase the damage by the card's Fate value. React: After an opposing hero engages but before determining immunity, discard a card. Decrease the damage of the card's Fate value." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1945,8 +1945,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="React: Play after the attacker chooses a battle to resolve, but before the defender's first action. The attacker performs the first action in the current battle instead of the defender." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1963,8 +1963,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer/Autumn: Add 1 food token to one of your  castle." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1981,8 +1981,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Autumn: Target a hero with one or more food tokens. Replace each of those food tokens with a -1W marker." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -1999,8 +1999,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Target your unbowed hero and another player's hero with equal or lower Will. That player may choose to discard 2 food tokens. If that player does not, then that player bows his or her targeted hero." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2017,8 +2017,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="React: Play after a tactic is played during a battle. Bury your target unbowed property. Negate all effects of the tactic." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2035,8 +2035,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Raid: Target your defending hero. Create a battle at this castle with this raid's unit(s) assigned. Other heroes cannot move into this battle. After the battle ends, the attacker does not bow and go home. Instead, resume the raid." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2053,8 +2053,8 @@
          <property name="Food Cost"       value="3" />
          <property name="Keywords"        value="Epic" />
          <property name="Text"            value="Summer: Use one Summer ability on a target tactic in your discard pile. Bury this card. Bury that tactic." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2071,8 +2071,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Engage your target defending hero, and any cohorts in that unit you wish, for at least 1 damage. The attacking player cannot declare any cards immune to this damage." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2089,8 +2089,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: If, in the current battle, you have more Undead heroes in your army than the total number of heroes in the opposing army, the opposing player must bury a hero in the battle." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2107,8 +2107,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Your target cohort gains Strength equal to the Will of its hero. Engage that a cohort." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2125,8 +2125,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Send one target attacking unit home the current battle, bowed." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2143,8 +2143,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="If you use this card as your stealth card, play it face up and draw a card." />
-         <property name="Fate Value"      value="4" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="4" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2161,8 +2161,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Bow your target hero. Bow a target hero with a lower Glory." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2179,8 +2179,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer/Autumn: Bury this card. Bury a target non-Epic property. X is equal to twice the printed gold cost of that property or 1, whichever value is greater." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2197,8 +2197,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Bow your target unbowed defending hero. Move 2 food tokens from the current battle's castle to your hero. (Food tokens on heroes cannot be used to absorb damage.)" />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2215,8 +2215,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Your target hero cannot be targeted by other players until your hero engaged or the Autumn Phase ends." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2233,8 +2233,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Send a target hero without cohorts home from the current battle. If you are the defender, you can play this at a battle where you have no units." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2251,8 +2251,8 @@
          <property name="Food Cost"       value="1" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="React: Play after your target hero absorbs damage from an engagement. That hero absorbs all damage from that engagement." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2269,8 +2269,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Move your target hero with at least 3 Will from the current battle to an unresolved battle at another castle." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2287,8 +2287,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Bow your target unbowed hero. Discard a card from your hand face up. Target another player. That player discards a card from his or her hand or the top of his or her deck. If your card's Fate value is higher, that player places three food tokens from his or her castles onto your hero; otherwise bury your hero." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2305,8 +2305,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Target another player's hero. Discard the top card of that player's deck. If the card's Fate value exceeds the hero's Fate value, bury the hero; otherwise the hero gains a +2S/+2W marker." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2323,8 +2323,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="" />
-         <property name="Fate Value"      value="6" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="6" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2341,8 +2341,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="If you discard this card to absorb damage, or because of another player's card effect, draw two cards." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2359,8 +2359,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="React: After a quest is put into play, bow your target hero. Discard the quest unless its player bows heroes with a total Glory of 3 or more. React: Play after an opposing unit engages, but before determining immunity. Reduce the damage by 2." />
-         <property name="Fate Value"      value="3" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="3" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2377,8 +2377,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Until the end of the current battle, heroes have -3S when they engage." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2395,8 +2395,8 @@
          <property name="Food Cost"       value="" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Battle: Your target hero gains +2S for the rest of the battle. Add a -1W marker to that hero. Engage that hero." />
-         <property name="Fate Value"      value="1" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="1" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
@@ -2413,8 +2413,8 @@
          <property name="Food Cost"       value="2" />
          <property name="Keywords"        value="" />
          <property name="Text"            value="Summer: Bury this card. Discard your hand. If this is your first action this turn, draw cards up to your hand size." />
-         <property name="Fate Value"      value="2" />
-         <property name="Gold Production" value="" />
+         <property name="Fate"            value="2" />
+         <property name="Production"      value="" />
          <property name="Renown"          value="" />
          <property name="Instructions"    value="" />
       </card>
