@@ -184,7 +184,7 @@ def discardTarget(table = table, x = 0, y = 0, silent = False, targetCards = Non
    
 def useAbility(card, x = 0, y = 0): 
    mute()
-   if not card.markers[mdict['Used Ability']] or confirm("You seem to have already used the ability of {} this turn. Bypass?".format(card.Name)):
+   if not card.markers[mdict['Used Ability']] or (card.markers[mdict['Used Ability']] and confirm("You seem to have already used the ability of {} this turn. Bypass?".format(card.Name))):
       card.markers[mdict['Used Ability']] += 1
       notify("{} uses the ability of {}".format(me,card))
    

@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
-  <section name="Faction" shared="False">
+  <section name="Stronghold" shared="False">
     <card qty="1" id="d5fce234-f965-4c52-a8cf-846c4dc717e3">The Dread Army Ixhasa</card>
   </section>
-  <section name="Strongholds" shared="False">
+  <section name="Castles" shared="False">
     <card qty="1" id="0b14da44-669c-4204-8b1e-dedf1769d599">Caldera Fort</card>
     <card qty="1" id="29f7ef2f-3ec6-40ff-b96d-912cf3ee3c95">Labyrinth of Bone</card>
     <card qty="1" id="21091ecf-d78c-4ee6-9a07-e437237a96eb">Protected Farmland</card>
     <card qty="1" id="b6824405-a72e-41f1-ba5a-6daa211e7759">The Sunken Pyramid</card>
+  </section>
+  <section name="Motte and Bailey" shared="False">
     <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
   </section>
   <section name="Deck" shared="False">

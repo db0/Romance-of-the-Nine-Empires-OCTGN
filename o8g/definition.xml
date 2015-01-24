@@ -4,7 +4,7 @@
       name="Romance of the Nine Empires" 
       id="629549ab-135c-46f1-ab1b-77cb6347dbf8" 
       octgnVersion="3.1.0.0"
-      version="0.0.2.7" 
+      version="0.0.2.8" 
       markersize="16"
       tags="fantasy duel"
       description="Romance of the Nine Empires is supposed to be the card game played in the movie Gamers 3."
@@ -65,7 +65,6 @@
 			<groupaction menu="Setup starting cards &amp; hand" default="False" shortcut="Ctrl+Shift+S" execute="setup" />
 			<groupaction menu="Download Sets Card Images." shortcut="Ctrl+G" default="False" execute="download_o8c" />
          <groupaction menu="Debug" default="False" shortcut="Ctrl+Shift+D" execute="TrialError" /> 
-         <groupaction menu="Reconnect" default="False" shortcut="Ctrl+Shift+Q" execute="reconnect" /> 
 		</groupactions>
 		<groupactions menu="Phases...">
 			<groupaction menu="Jump to Spring." default="False" shortcut="F1" execute="goToSpring" />
@@ -117,8 +116,8 @@
 		<counter name="Renown" default="0" reset="False" icon="Counters/ghostrock.png" />
 	</player>
 	<deck>
-		<section name="Faction" group="Play Hand" />
-		<section name="Strongholds" group="Play Hand" />
+		<section name="Stronghold" group="Play Hand" />
+		<section name="Castles" group="Play Hand" />
 		<section name="Motte and Bailey" group="Play Hand" />
 		<section name="Deck" group="Deck" />
 	</deck>

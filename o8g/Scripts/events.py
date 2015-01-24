@@ -19,6 +19,7 @@ def chooseSide(): # Called from many functions to check if the player has chosen
         playerside = 1
    
 def checkDeck(player,groups):
+   return
    mute()
    chooseSide()
    stronghold = None
