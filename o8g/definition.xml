@@ -12,21 +12,17 @@
       gameurl="http://octgn.gamersjudgement.com/wordpress/R9E"
       authors="Db0"
       iconurl="https://raw.github.com/db0/Romance-of-the-Nine-Empires-OCTGN/master/box.jpg"
-      usetwosidedtable="False">
+      usetwosidedtable="True">
 	<scripts>
       <script src="Scripts/constants.py" />
       <script src="Scripts/actions.py" />
       <script src="Scripts/generic.py" />
       <script src="Scripts/meta.py" />
-      <script src="Scripts/poker.py" />
       <script src="Scripts/events.py" />
-      <script src="Scripts/autoscripts.py" />
-      <script src="Scripts/customscripts.py" />
-      <script src="Scripts/CardScripts.py" />
 	</scripts> 
    <events>
-<!--       <event name="OnTableLoad" action="chkTwoSided" />
-       <event name="OnLoadDeck" action="checkDeck" />
+      <event name="OnTableLoad" action="chkTwoSided" />
+<!--        <event name="OnLoadDeck" action="checkDeck" />
        <event name="OnMoveCard" action="checkMovedCard" />
        <event name="OnMarkerChanged" action="chkMarkerChanges" /> -->
    </events>
@@ -107,7 +103,7 @@
 			<groupaction menu="Ace all Events" default="False" execute="aceevents" />
 		</group>
 		<group name="ScriptingPile" visibility="all" ordered="False" width="90" height="126" icon="Groups/removed.png" collapsed="True" />
-		<counter name="GhostRock" default="0" reset="False" icon="Counters/ghostrock.png" />
+		<counter name="Renown" default="0" reset="False" icon="Counters/ghostrock.png" />
 		<counter name="Influence" default="0" reset="False" icon="Counters/influence.png" />
 		<counter name="Control" default="0" reset="False" icon="Counters/control.png" />
 	</player>
