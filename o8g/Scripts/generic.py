@@ -609,53 +609,23 @@ def cheight(card = None, divisor = 10):
    else: offset = CardHeight / divisor
    return (CardHeight + offset)
 
-def placeCard(card,type = None, dudecount = 0):
+def placeCard(card,type = None):
 # This function automatically places a card on the table according to what type of card is being placed
 # It is called by one of the various custom types and each type has a different value depending on if the player is on the X or Y axis.
    global strikeCount, posSideCount, negSideCount
-   if playeraxis == Xaxis:
-      if type == 'HireDude' or (type == None and card.Type == 'Dude'):
-         # Move the dude next to where we expect the player's home card to be.
-         card.moveToTable(homeDistance(card) + (playerside * cwidth(card,-4)), 0)
-      if type == 'BuyDeed' or (type == None and card.Type == 'Deed'):
-         if re.search('Out of Town', card.Keywords): # Check if we're bringing out an out of town deed
-            card.moveToTable(homeDistance(card) + 2 * cardDistance(card), (-1 * cheight(card,4) * 2) + strikeCount * cheight(card))
-            strikeCount += 1 # Increment this counter. Extra out of town deeds will be placed below the previous ones.
-         else:
-            if confirm("Do you want to place this deed on the bottom side of your street?"): # If it's a city deed, then ask the player where they want it.
-               negSideCount += 1 #If it's on the bottom, increment the counter...
-               card.moveToTable(homeDistance(card), negSideCount * cheight(card)) # ...and put the deed below all other deeds already there.
-            else:
-               posSideCount += 1 # Same as above but going upwards from home.
-               card.moveToTable(homeDistance(card), -1 * (posSideCount * cheight(card)))     
-      if type == 'SetupHome':
-         card.moveToTable(homeDistance(card), 0) # We move it to one side depending on what side the player chose.
-      if type == 'SetupDude':
-         card.moveToTable(homeDistance(card) + cardDistance(card) + playerside * (dudecount * cwidth(card)), 0) 
-         # We move them behind the house
-      if type == 'SetupOther':
-         card.moveToTable(playerside * (cwidth(card,4) * 3), playerside * -1 * cheight(card)) # We move the card around the player's area.      
-   elif playeraxis == Yaxis:
-      if type == 'HireDude' or (type == None and card.Type == 'Dude'):# Hire dudes on your home + one card height - 20% of a card height
-         card.moveToTable(0,homeDistance(card) + (playerside * cheight(card,-4)))
-      if type == 'BuyDeed' or (type == None and card.Type == 'Deed'): 
-         if re.search('Out of Town', card.Keywords): # Check if we're bringing out an out of town deed
-            card.moveToTable((playerside * cwidth(card,4) * 5) + strikeCount * cwidth(card) * playerside, homeDistance(card) + cardDistance(card))
-            strikeCount += 1 
-         else:
-            if confirm("Do you want to place this deed on the right side of your street?"): # If it's a city deed, then ask the player where they want it.
-               negSideCount += 1 #If it's on the right, increment the counter...
-               card.moveToTable(negSideCount * cwidth(card),homeDistance(card)) # ...and put the deed below all other deeds already there.
-            else:
-               posSideCount += 1 # Same as above but going leftwards from home.
-               card.moveToTable(-1 * (posSideCount * cwidth(card)),homeDistance(card))       
-      if type == 'SetupHome':
-         card.moveToTable(0,homeDistance(card)) 
-      if type == 'SetupDude': # Setup your dudes one card height behind your home and in a horizontal line
-         card.moveToTable(-cwidth(card) + (dudecount * cwidth(card)),homeDistance(card) + cardDistance(card)) 
-      if type == 'SetupOther':
-         card.moveToTable(playerside * -3 * cwidth(card), playerside * (cheight(card,4) * 3)) 
-   else: card.moveToTable(0,0)
+   if card.Type == 'Hero':
+      card.moveToTable(0, 20 * playerside)
+   if card.Type == 'Property':
+      otherProperties = [c for c in table if c.Type == 'Property' and c.controller == me]
+      card.moveToTable((10 + CardWidth) * len(otherProperties), 110 * playerside)
+   elif type == 'SetupStronghold':
+      card.moveToTable(-73, 110 * playerside)
+   elif type == 'SetupM&B':
+      card.moveToTable(CardWidth, 110 * playerside)
+   elif type == 'SetupCastle':
+      otherCastles = [c for c in table if c.Type == 'Castle' and c.controller == me]
+      card.moveToTable(130 * playerside + len(otherCastles) * (CardWidth + 10), 200 * playerside)
+   else: card.moveToTable(0,70 * playerside)
    
 def homeDistance(card = None):
 # This function retusn the distance from the middle each player's home will be setup towards their playerSide. 
