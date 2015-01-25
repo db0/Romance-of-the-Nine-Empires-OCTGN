@@ -709,6 +709,24 @@
          <property name="Instructions"    value="" />
       </card>
 
+      <card id="be88e640-19e1-4089-b396-b776ed486fe5" name="General Hain">
+         <property name="Type"            value="Hero" />
+         <property name="Faction"         value="Malchior" />
+         <property name="Strength"        value="7" />
+         <property name="Will"            value="4" />
+         <property name="Glory"           value="4" />
+         <property name="Storage"         value="" />
+         <property name="Point Cost"      value="" />
+         <property name="Gold Cost"       value="13" />
+         <property name="Food Cost"       value="2" />
+         <property name="Keywords"        value="Malchior-Brutal-Champion-Unique" />
+         <property name="Text"            value="Increase your maximum hand size by two." />
+         <property name="Fate"            value="5" />
+         <property name="Production"      value="" />
+         <property name="Renown"          value="" />
+         <property name="Instructions"    value="" />
+      </card>
+
       <card id="6e709021-588b-4405-977d-2f5c64fb0aae" name="Beknine">
          <property name="Type"            value="Hero" />
          <property name="Faction"         value="Malchior" />

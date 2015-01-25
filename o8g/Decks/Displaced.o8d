@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
+  <section name="Stronghold" shared="False">
+    <card qty="1" id="b42da7f2-967b-44b8-8882-13c4859d2631">The Displaced</card>
+  </section>
+  <section name="Castles" shared="False">
+    <card qty="1" id="9e2d2383-7a40-4374-91ab-95c7ee54c927">Border Keep</card>
+    <card qty="1" id="37ac80ad-9ac3-426b-a64a-dd0b22665526">Camp Defiance</card>
+    <card qty="1" id="5330a6f0-2066-4703-9ce6-cc634f22a634">Fortified Market Town</card>
+    <card qty="1" id="21091ecf-d78c-4ee6-9a07-e437237a96eb">Protected Farmland</card>
+    <card qty="1" id="cd089944-7271-47d3-a307-41d40226b430">Sanctuary</card>
+  </section>
+  <section name="Motte and Bailey" shared="False">
+    <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
+  </section>
+  <section name="Deck" shared="False">
+    <card qty="2" id="79577f27-0809-4db0-8a11-ed6f513598d8">Glyde, the Dreadowl</card>
+    <card qty="2" id="949b2041-4509-4ba6-9b3e-6203ae9af06b">The Chaplain</card>
+    <card qty="3" id="6f68257d-7f96-4a0b-86b5-0646f181629b">Colonel Baker</card>
+    <card qty="3" id="ae642579-0c16-4b68-a495-8481fea760f9">Jerrin Strongblade</card>
+    <card qty="3" id="aa9cbd2b-7912-43c7-ae25-b867fd2b502c">Siter'Ath Jones</card>
+    <card qty="2" id="71fa6fd9-cc04-4802-8766-c8b7dd719939">"Skeeter" Malloy</card>
+    <card qty="2" id="e8fe7cd9-b836-4bcb-9f4e-e74fe0087fec">Young Mike</card>
+    <card qty="3" id="f8b5ceed-6344-44b9-b18b-3b3b8d36a680">Displaced Bunker</card>
+    <card qty="1" id="33f10cf6-dab0-41d2-8504-2310a6d92230">Extraplanar Obelisk</card>
+    <card qty="1" id="bbf679f5-263b-4f29-8d4e-e8f3ee789a6b">Library</card>
+    <card qty="2" id="018a9d42-0562-4853-a2bb-8249c6e24357">Quantum Reactor</card>
+    <card qty="3" id="003742dc-86df-4d6b-bcc5-12afaa1a71f4">Spice Mine</card>
+    <card qty="3" id="4de4bbda-2d68-494e-8eb8-8ecbff88f055">Training Grounds</card>
+    <card qty="2" id="f6bfb279-dc7f-4df1-aa05-b03139214dde">Blight</card>
+    <card qty="3" id="4809b26b-ef22-47be-9fa1-2961505538f2">Blitzkrieg</card>
+    <card qty="3" id="1b3d7fff-22f7-4329-819b-c09ea70b4b9e">Death from Above</card>
+    <card qty="3" id="f185b616-aa4e-4dab-a084-a18243ccbe93">Lost to the Nexus</card>
+    <card qty="2" id="67f5aaa7-672e-4b25-afe3-1f2273fc0fbe">Mano a Mano</card>
+    <card qty="2" id="5db42dc3-f8aa-412b-8dfc-818c8cb0078a">Safeguard</card>
+    <card qty="2" id="7b333efa-ba35-4bba-81cc-3a5e1e2faa81">Slip Behind the Veil</card>
+    <card qty="3" id="fc7e1050-553f-4a5e-886c-07b07ef7e127">Thwart</card>
+    <card qty="3" id="be7ded38-960a-4249-adbf-69ffa0c0c9b6">Touch of Shad-Hujem</card>
+    <card qty="2" id="7fdcdaf3-3323-4a7d-8547-36b6952de445">Undermarket Dealings</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

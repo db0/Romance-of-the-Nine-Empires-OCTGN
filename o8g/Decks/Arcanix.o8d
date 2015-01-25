@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
+  <section name="Stronghold" shared="False">
+    <card qty="1" id="ed8a3cb7-5e45-484b-a156-ab8fa786c613">Magocracy of Arcanix</card>
+  </section>
+  <section name="Castles" shared="False">
+    <card qty="1" id="82639ba0-957d-4620-a60e-6b4a71410039">Castle of the Dead</card>
+    <card qty="1" id="0b14da44-669c-4204-8b1e-dedf1769d599">Caldera Fort</card>
+    <card qty="1" id="7e95423c-8bf3-4cc1-a60b-7174c3d66873">Citadel of Arcane Secrets</card>
+    <card qty="1" id="fadb5269-8c11-4065-8698-99352a4689fa">Outpost</card>
+  </section>
+  <section name="Motte and Bailey" shared="False">
+    <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
+  </section>
+  <section name="Deck" shared="False">
+    <card qty="1" id="82e402c7-d2e3-4645-8ae6-45bba4874b49">Quezca'at</card>
+    <card qty="1" id="4b5a5565-82f4-44b0-8976-b4ffc690c83a">Exotic Mounts</card>
+    <card qty="1" id="4de4bbda-2d68-494e-8eb8-8ecbff88f055">Training Grounds</card>
+    <card qty="1" id="202822c3-9b14-416a-a7bb-5a4bb33bcdec">Cache of Secrets</card>
+    <card qty="2" id="49d6895d-dacc-4adf-9d13-ad2447709bc7">Bazaar</card>
+    <card qty="3" id="d0599190-0664-496f-8bd6-8bb7ec2727de">The Four-Day Bazaar Master</card>
+    <card qty="3" id="871740a8-aa87-44fd-8e96-385cf52a8891">Vault of Knowledge &amp; Insanity</card>
+    <card qty="2" id="ca9b0471-1635-4669-bb58-8a5b66420487">Harmony Vasquez</card>
+    <card qty="2" id="543bc937-5115-49d2-bf2b-168a54a4dc32">Nigel the Gay</card>
+    <card qty="3" id="e09eb2ad-91ba-4bd0-a155-259868da7c5c">Prentice Marc, the Chump</card>
+    <card qty="3" id="2f5451f5-2c78-43ed-a9cc-4df17ef5e6df">Sir John, Noble Guard</card>
+    <card qty="2" id="7b403f31-9831-4784-89cf-e035fab3be50">Archmaj Vincent, the Phasing</card>
+    <card qty="2" id="e485eeea-c584-4c98-8bb4-062632fe39c9">Maj Nescra, the Drifter</card>
+    <card qty="2" id="c5d470f7-a9a7-4b4a-8a59-bf40a1fe569d">Maj David, the Devoted</card>
+    <card qty="1" id="31625aac-63ef-471f-b933-60448c5eda37">Adamant Highwayman</card>
+    <card qty="2" id="53793d7f-c996-4e98-8e9d-822fcce73940">Cedric Humm</card>
+    <card qty="2" id="e3381463-c4fb-41bb-9755-c3c8e90b3907">Malmar the Apocryphal</card>
+    <card qty="3" id="690d3cfd-2c74-4ded-a267-73fa57d93f81">Khelpri Vainglory</card>
+    <card qty="1" id="ba4239d7-22d4-4e8d-90cf-7edfed3c4514">Power of Three</card>
+    <card qty="1" id="c30166b7-405b-4439-a851-304767b9a0a7">Power of Three</card>
+    <card qty="2" id="25fcd4af-e402-42b2-9fd5-a64aa2d80d47">Ixhasan Jackals</card>
+    <card qty="1" id="68713507-71fd-4862-a9e3-e727f6206674">Power of Three</card>
+    <card qty="2" id="f41ea8ac-8089-4734-885e-83e263ac4149">Defender of the Pure</card>
+    <card qty="2" id="39e8a034-0ec9-49da-acb1-154c4812fa7e">Feynman's Genie</card>
+    <card qty="2" id="9cd1fbbd-17fb-4943-ae81-d1eb326ab638">Summon Destrier</card>
+    <card qty="3" id="3d42e336-6ea4-4700-a5c4-89b77a7dbcf7">Touch of the Abyss</card>
+    <card qty="2" id="1ee671ac-78db-4a6d-9ef5-2736c695a955">Mmm! Bacon!</card>
+    <card qty="3" id="8a72fcfe-5356-4517-bd53-4bffd2b60473">The Purple Ninja</card>
+    <card qty="1" id="e761f8d7-f550-45da-b95d-ba634d23407a">DeMille's Folly</card>
+    <card qty="3" id="34943282-aef2-4df2-b46b-d7efb0730692">Pincers and Tail</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

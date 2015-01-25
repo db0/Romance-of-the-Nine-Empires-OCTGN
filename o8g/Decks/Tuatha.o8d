@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
+  <section name="Stronghold" shared="False">
+    <card qty="1" id="239afe45-f352-41cc-a71f-01e80cf7615a">The Tuatha</card>
+  </section>
+  <section name="Castles" shared="False">
+    <card qty="1" id="0b14da44-669c-4204-8b1e-dedf1769d599">Caldera Fort</card>
+    <card qty="1" id="a31e7fa9-54f0-4d6f-9a8c-91875c42d500">Temple of the Monkey</card>
+    <card qty="1" id="2086afdd-2847-49a8-9a31-bb3ea30fe1f3">Peasant Army Citadel</card>
+    <card qty="1" id="4c52f034-4f1a-4360-8d89-06c4b2ba3a53">Seat of the Fallen</card>
+  </section>
+  <section name="Motte and Bailey" shared="False">
+    <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
+  </section>
+  <section name="Deck" shared="False">
+    <card qty="1" id="4b5a5565-82f4-44b0-8976-b4ffc690c83a">Exotic Mounts</card>
+    <card qty="1" id="82e402c7-d2e3-4645-8ae6-45bba4874b49">Quezca'at</card>
+    <card qty="2" id="4de4bbda-2d68-494e-8eb8-8ecbff88f055">Training Grounds</card>
+    <card qty="1" id="202822c3-9b14-416a-a7bb-5a4bb33bcdec">Cache of Secrets</card>
+    <card qty="1" id="49d6895d-dacc-4adf-9d13-ad2447709bc7">Bazaar</card>
+    <card qty="3" id="85778c67-4174-467f-bdd3-aa254597f377">Second</card>
+    <card qty="3" id="675691ea-a5d3-4d84-a2ee-8f710f803009">Veil's Grove</card>
+    <card qty="3" id="5c623cef-e8c6-4295-8398-26ca4751d5a5">Imperial Protector</card>
+    <card qty="2" id="45ed094d-1f47-4675-baa2-87670fc289fd">Lokin o' Black Rose</card>
+    <card qty="2" id="67f5006f-d2b1-4e87-b1e1-0ca7b6dc1557">Chelar the Talon</card>
+    <card qty="2" id="e3a9f651-bb50-44ec-bf5a-090dd3c1522a">Leanan o' Black Rose</card>
+    <card qty="2" id="fcef32be-877a-46ac-bc56-4c906ec2a26f">Prince Hubriq Paigne</card>
+    <card qty="2" id="9489a48c-b352-4807-a02a-54e9579297c8">Lynnvander</card>
+    <card qty="2" id="4ba49344-b882-4456-ba74-1cc0a2bae207">Rants at the Moon</card>
+    <card qty="2" id="baaea8bc-3158-4906-b451-e3aec22e2a4a">Mickeloso</card>
+    <card qty="2" id="66808630-903d-4648-ba68-a772ad9b5910">Lorki</card>
+    <card qty="3" id="a5dc6219-1143-4c85-878a-26c129fb1f68">Saint Daeron Isilra</card>
+    <card qty="3" id="7ec8b878-cddf-4cdc-9087-c93acfc3a3e2">The Hogs of War</card>
+    <card qty="1" id="53793d7f-c996-4e98-8e9d-822fcce73940">Cedric Humm</card>
+    <card qty="1" id="e3381463-c4fb-41bb-9755-c3c8e90b3907">Malmar the Apocryphal</card>
+    <card qty="3" id="548198ff-648c-46f7-8093-e722164ce09e">Valkyrie Armor</card>
+    <card qty="2" id="229cad6a-52ce-4e10-a3a7-0897ca6af204">Costumery for Theatre</card>
+    <card qty="1" id="25fcd4af-e402-42b2-9fd5-a64aa2d80d47">Ixhasan Jackals</card>
+    <card qty="3" id="59524298-5a3f-405e-8bab-d89d3a6dba71">Force of Will</card>
+    <card qty="3" id="ca1f38b3-060a-4b7c-8bf8-d928b2d35fcb">First Blood, or Death?</card>
+    <card qty="3" id="11cb36cf-9708-405d-b137-5f9e971b08c8">Clash of Leaders</card>
+    <card qty="2" id="2d411899-1451-402d-9a81-9cf998967f45">Unexpected Rescue</card>
+    <card qty="2" id="ebdcd9bf-0a74-4636-bb46-ceef560022fd">Ordic Negotiations</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

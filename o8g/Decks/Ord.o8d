@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
+  <section name="Stronghold" shared="False">
+    <card qty="1" id="faeaff02-9391-4fd2-81db-eee20be09934">The Ord</card>
+  </section>
+  <section name="Castles" shared="False">
+    <card qty="1" id="9e2d2383-7a40-4374-91ab-95c7ee54c927">Border Keep</card>
+    <card qty="1" id="5330a6f0-2066-4703-9ce6-cc634f22a634">Fortified Market Town</card>
+    <card qty="1" id="4d500f49-7c95-4b4a-b541-ab6abd111004">Kaskad Slip</card>
+    <card qty="1" id="cd089944-7271-47d3-a307-41d40226b430">Sanctuary</card>
+    <card qty="1" id="036560e6-362c-4bbc-ad11-dc18f4d09b0f">Wizard's Tower</card>
+  </section>
+  <section name="Motte and Bailey" shared="False">
+    <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
+  </section>
+  <section name="Deck" shared="False">
+    <card qty="1" id="800e9b6c-6e20-45ab-9b9c-2fa48a184eed">Peasant Archers</card>
+    <card qty="3" id="393ac6e2-4e12-458b-bed6-0676d497155a">Actuacte Ixit</card>
+    <card qty="1" id="5bd34043-1dee-464f-8d69-279cc2fb4b27">Cao Covah</card>
+    <card qty="3" id="13f9341f-7935-4023-be1a-c6c351651c1b">Ecehatl</card>
+    <card qty="3" id="d2a1a8d8-896b-4fa0-8e4e-84fd8f0f1e7d">Keshie</card>
+    <card qty="3" id="23203e7d-5609-457e-948f-33f0c49e5ca1">Torin Quickhand</card>
+    <card qty="2" id="602390a4-9e43-4279-b1df-ce43185a1e97">Excel R-8</card>
+    <card qty="1" id="29e430c3-2cee-43fe-92bd-9630412f9824">Major Moffett's Airlift</card>
+    <card qty="2" id="1d331f2c-0bec-4565-9cf7-f72cd18293a1">Steph's Revenge</card>
+    <card qty="1" id="aa69a243-8533-4772-b93b-99ffb5b7e049">Three Coins of the Prince</card>
+    <card qty="1" id="d3c4b097-44bf-42b9-9d00-d9c3e8c9b138">Xalfian Amulet</card>
+    <card qty="3" id="49d6895d-dacc-4adf-9d13-ad2447709bc7">Bazaar</card>
+    <card qty="2" id="202822c3-9b14-416a-a7bb-5a4bb33bcdec">Cache of Secrets</card>
+    <card qty="2" id="4b5a5565-82f4-44b0-8976-b4ffc690c83a">Exotic Mounts</card>
+    <card qty="3" id="0fa95a14-5c13-429a-8027-534d1949b5b6">Mysterious Workshop</card>
+    <card qty="3" id="4de4bbda-2d68-494e-8eb8-8ecbff88f055">Training Grounds</card>
+    <card qty="3" id="a1ca527e-90dd-4107-93d9-720977c1cf68">Divination</card>
+    <card qty="1" id="fa458710-e4f0-418d-89f1-7db3699a283c">Flaming Hand of Fiery Doom</card>
+    <card qty="3" id="d9db34d5-4372-4c44-a549-6933c6c3e6d0">Torfald's Cards</card>
+    <card qty="3" id="4d7e019d-9681-4755-88d3-dae63feb4e34">At Your Command</card>
+    <card qty="3" id="4809b26b-ef22-47be-9fa1-2961505538f2">Blitzkrieg</card>
+    <card qty="1" id="c7e7ff4b-b41c-4aa1-a72d-f3ee94d6f92c">Brutal Screams in the Night</card>
+    <card qty="1" id="96a921bc-cff0-4a6e-bc9b-d7933becc6f1">Burn the Crops</card>
+    <card qty="3" id="282d80fb-fcf5-44a9-9e53-c50486237cb2">Captain Greya's Maneuver</card>
+    <card qty="1" id="b5086c46-6555-4bad-b721-af55ce478db1">Caught!</card>
+    <card qty="2" id="7fdcdaf3-3323-4a7d-8547-36b6952de445">Undermarket Dealings</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="629549ab-135c-46f1-ab1b-77cb6347dbf8" sleeveid="0">
+  <section name="Stronghold" shared="False">
+    <card qty="1" id="5a6c6a9f-efa6-4e47-bc4d-080bee63464a">The Kingdom of Holden</card>
+  </section>
+  <section name="Castles" shared="False">
+    <card qty="1" id="fadb5269-8c11-4065-8698-99352a4689fa">Outpost</card>
+    <card qty="1" id="bdfb4eb9-b9d1-4333-85a4-09d81cd99b7c">Temple of the Snail Spirit</card>
+    <card qty="1" id="21091ecf-d78c-4ee6-9a07-e437237a96eb">Protected Farmland</card>
+    <card qty="1" id="9e2d2383-7a40-4374-91ab-95c7ee54c927">Border Keep</card>
+    <card qty="1" id="d3a3c5c4-a60c-4087-bb87-f2a8f8b4f0e4">Casle Holden</card>
+  </section>
+  <section name="Motte and Bailey" shared="False">
+    <card qty="1" id="b1402505-7f6e-49b6-9be0-44bd55bdffbb">Motte and Bailey</card>
+  </section>
+  <section name="Deck" shared="False">
+    <card qty="1" id="800e9b6c-6e20-45ab-9b9c-2fa48a184eed">Peasant Archers</card>
+    <card qty="1" id="7a8a0e29-bb08-4a9e-b437-83c0b3e5fa06">Veteran Men-at-Arms</card>
+    <card qty="2" id="4ebd11c4-44db-4f45-b31b-eb7adad012f4">Coeli Quando</card>
+    <card qty="1" id="e190682e-856b-4c64-bf6f-5fbcaa18b843">Genevieve</card>
+    <card qty="2" id="cf997349-c791-4de9-8349-0009234e3b0c">Jack Newcomer</card>
+    <card qty="2" id="770c6b28-2947-4fd3-ba07-47a10f60c3d5">Myriad Buxtehude</card>
+    <card qty="3" id="05af7923-d7ee-4334-8e0c-5a8264cd5860">The Vanguard of Guild 10-42</card>
+    <card qty="2" id="726893b1-30f4-4c47-8ca6-33ab0de3e6a6">Tuatha Dundareel</card>
+    <card qty="1" id="4b5a5565-82f4-44b0-8976-b4ffc690c83a">Exotic Mounts</card>
+    <card qty="1" id="33f10cf6-dab0-41d2-8504-2310a6d92230">Extraplanar Obelisk</card>
+    <card qty="2" id="bbf679f5-263b-4f29-8d4e-e8f3ee789a6b">Library</card>
+    <card qty="1" id="dd89e883-e8b1-4800-b946-89f9c961b0ff">The Queen's Chamber</card>
+    <card qty="1" id="a38738df-a609-4f52-8c8a-cb8cd28921f4">Simm's Tomb</card>
+    <card qty="3" id="4de4bbda-2d68-494e-8eb8-8ecbff88f055">Training Grounds</card>
+    <card qty="3" id="13c45bc8-5bd6-4888-82d1-b921a4d6d2d3">Valiant Squire</card>
+    <card qty="1" id="8b28152d-dfd4-4be9-9a30-56cd7050ed18">The Apple of Life?</card>
+    <card qty="2" id="4036c1f3-f269-4bf2-abf5-e7ea4a2cda92">The Biggest Turnip</card>
+    <card qty="2" id="6220d750-6610-424d-8338-328f6606528f">A Desperate Offer?</card>
+    <card qty="2" id="9d8949c3-e1a3-4db3-8eca-630a47523fb2">Journey?</card>
+    <card qty="1" id="deda292b-0901-4d1a-8bd1-597600b613a7">A Most Peculiar Lamp?</card>
+    <card qty="2" id="2fe88943-31e9-41df-b7d6-5214e8346407">Rescue the Hostage?</card>
+    <card qty="2" id="f6bfb279-dc7f-4df1-aa05-b03139214dde">Blight</card>
+    <card qty="2" id="1b3d7fff-22f7-4329-819b-c09ea70b4b9e">Death from Above</card>
+    <card qty="2" id="f185b616-aa4e-4dab-a084-a18243ccbe93">Lost to the Nexus</card>
+    <card qty="2" id="b4225d5c-a1b3-41b6-92e0-64c34ef95e59">Negotiation</card>
+    <card qty="2" id="4b9b215e-2cfe-4fdf-9ae6-6671a91cbdd3">Soul of a Dragon</card>
+    <card qty="2" id="eac93bef-0f2e-4057-a351-f8c91c7a683a">Tactical Acumen</card>
+    <card qty="2" id="da3ba623-62f2-4970-b57e-208c7fc91254">Torrential Rain</card>
+    <card qty="2" id="a450401c-bbf4-4be4-bc7e-a3e19f56ec52">The Tree of Life Blooms</card>
+    <card qty="2" id="ea17748e-4acc-4fb5-b27c-1d35da47b915">Snow in Summer</card>
+    <card qty="1" id="7fdcdaf3-3323-4a7d-8547-36b6952de445">Undermarket Dealings</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
