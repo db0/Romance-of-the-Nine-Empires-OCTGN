@@ -13,7 +13,7 @@ How to play
    * Ctrl+Enter cycles through the phases. F1-F4 jumps to specific phase (Spring/Summer/Autumn/Winter respectively)
    * F10 declares an attack in Summer, or a raid in Autumn. Inform the target player via chat in multiplayer. pressing F10 again finishes the engagement.
    * To play a Hero or Property, double click it from your hand
-   * To play an Item or Spell, target a Hero (shift+click) then double-click it from your hand.
+   * To play an Item, Cohort, or Spell, target a Hero (shift+click) then double-click it from your hand.
    * For cards on the table a "Smart Action" is included by  double-clicking them. By order of priority 
      * On a Stealth Card (Face Down, Black Highlight) it will flip it up and announce it value.
      * On a face-up stealth card, it will discard it
