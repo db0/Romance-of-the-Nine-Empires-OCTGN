@@ -4,7 +4,7 @@
       name="Romance of the Nine Empires" 
       id="629549ab-135c-46f1-ab1b-77cb6347dbf8" 
       octgnVersion="3.1.0.0"
-      version="0.0.2.8" 
+      version="0.0.2.13" 
       markersize="16"
       tags="fantasy duel"
       description="Romance of the Nine Empires is supposed to be the card game played in the movie Gamers 3."
@@ -21,7 +21,7 @@
       <script src="Scripts/events.py" />
 	</scripts> 
    <events>
-      <event name="OnTableLoad" action="chkTwoSided" />
+      <event name="OnGameStart" action="chkTwoSided" />
       <event name="OnLoadDeck" action="checkDeck" />
       <event name="OnMoveCard" action="checkMovedCard" />
    </events>
@@ -64,6 +64,7 @@
 		<groupactions menu="Game...">
 			<groupaction menu="Setup starting cards &amp; hand" default="False" shortcut="Ctrl+Shift+S" execute="setup" />
 			<groupaction menu="Download Sets Card Images." shortcut="Ctrl+G" default="False" execute="download_o8c" />
+			<groupaction menu="Reconnect." shortcut="Ctrl+Shift+Q" default="False" execute="reconnect" />
          <groupaction menu="Debug" default="False" shortcut="Ctrl+Shift+D" execute="TrialError" /> 
 		</groupactions>
 		<groupactions menu="Phases...">
@@ -96,6 +97,7 @@
 		<hand name="Hand" visibility="me" ordered="False" width="90" height="126" icon="Groups/playhand.png">
 			<cardaction menu="Play" default="True" execute="playcard" />
 			<cardaction menu="Play facedown for Fate" default="True" execute="playFate" />
+			<groupaction menu="Take Mulligan" default="False" execute="mulligan" />
 			<cardaction menu="Inspect Card" default="False" shortcut="Ctrl+I" execute="inspectCard" />
 			<cardaction menu="Discard card" default="False" shortcut="Del" execute="handDiscard" />
 			<groupaction menu="Random Discard" default="False" shortcut="Ctrl+Alt+D" execute="randomDiscard" />
@@ -116,9 +118,9 @@
 		<counter name="Renown" default="0" reset="False" icon="Counters/ghostrock.png" />
 	</player>
 	<deck>
-		<section name="Stronghold" group="Play Hand" />
-		<section name="Castles" group="Play Hand" />
-		<section name="Motte and Bailey" group="Play Hand" />
+		<section name="Stronghold" group="Hand" />
+		<section name="Castles" group="Hand" />
+		<section name="Motte and Bailey" group="Hand" />
 		<section name="Deck" group="Deck" />
 	</deck>
 </game>

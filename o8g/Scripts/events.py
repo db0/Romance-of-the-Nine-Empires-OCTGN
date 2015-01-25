@@ -19,7 +19,6 @@ def chooseSide(): # Called from many functions to check if the player has chosen
         playerside = 1
    
 def checkDeck(player,groups):
-   return
    mute()
    chooseSide()
    stronghold = None
@@ -29,7 +28,7 @@ def checkDeck(player,groups):
       for group in groups:
          if group == me.hand:
             for card in group:
-               if card.Type == 'Stronhold': 
+               if card.Type == 'Stronghold': 
                   notify("{} is playing {}".format(player,card.Name))
                   stronghold = card
                if card.Type == 'Castle': 
@@ -45,7 +44,7 @@ def checkDeck(player,groups):
             castlesCost += num(castle.properties['Point Cost'])
             if castlesCost > num(stronghold.Strength):
                information(":::ERROR::: Your castles cost more than your available castle points! Please remove some castles from your deck before you try to use it in a game!")               
-         else:
+         if group == me.Deck:
             counts = collections.defaultdict(int)
             ok = True
             for card in group:
@@ -64,7 +63,6 @@ def checkDeck(player,groups):
    
 def checkMovedCard(player,card,fromGroup,toGroup,oldIndex,index,oldX,oldY,x,y,isScriptMove,highlight = None,markers = None):
    mute()
-   debugNotify("isScriptMove = {}".format(isScriptMove))
    if isScriptMove: return # If the card move happened via a script, then all automations should have happened already.
    if fromGroup == me.hand and toGroup == table: 
       if card.Type == 'Stronghold': 

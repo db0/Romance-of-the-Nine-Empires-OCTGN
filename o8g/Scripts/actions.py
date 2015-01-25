@@ -98,11 +98,12 @@ def setup(group,x=0,y=0):
    motteBailey = None
    for card in me.hand: # For every card in the player's hand... (which should be an outfit and a bunch of dudes usually)
       if card.Type == "Stronghold" : 
-         placeCard(card,'SetupHome')
+         placeCard(card,'SetupStronghold')
          stronghold = card
       elif card.Type == "Castle" : 
          placeCard(card,'SetupCastle')
          castles.append(card)
+         card.markers[mdict['Food']] = num(card.Storage)
       elif card.Name == "Motte and Bailey" : 
          placeCard(card,'SetupM&B')
          motteBailey = card
@@ -113,7 +114,16 @@ def setup(group,x=0,y=0):
    if not motteBailey: 
       motteBailey = table.create("b1402505-7f6e-49b6-9be0-44bd55bdffbb", 0,0, 1, True) # The OK Button
       placeCard(motteBailey,'SetupM&B')
+   handlimit = 4 + len([card for card in table if card.controller == me and card.Type =='Castle'])
+   drawMany(me.Deck,handlimit,silent = True)
    notify("{} is playing {} with the following castles: {}.".format(me, stronghold, [castle.Name for castle in castles]))
+   
+def mulligan(group):
+   mute()
+   notify("{} is taking a mulligan (Remember to pay 2 food)".format(me))
+   handlimit = 4 + len([card for card in table if card.controller == me and card.Type =='Castle'])
+   groupToDeck()
+   drawMany(me.Deck,handlimit,silent = True)
    
 def Pass(group, x = 0, y = 0): # Player says pass. A very common action.
    notify('{} Passes.'.format(me))
@@ -157,7 +167,6 @@ def discard(card, x = 0, y = 0, silent = False): # Discard a card.
    if card.controller != me: 
       remoteCall(card.controller,"discard",[card])
       return
-   debugNotify(">>> discard()") #Debug
    mute()
    cardowner = card.owner
    clearAttachLinks(card)
@@ -364,16 +373,15 @@ def handBury(card, x = 0, y = 0): # Bury a card from your hand.
    card.moveTo(me.piles['Bury Pile'])
    notify("{} has buried {}.".format(me, card))  
 
-def handShuffle(group, x = 0, y = 0): # Shuffle your hand back into your deck
-   if not confirm("Are you sure you want to shuffle your hand into your deck?"): return
-   notify("{} is shuffling their hand back into their deck...".format(me))
+def handShuffle(group, x = 0, y = 0, silent = False): # Shuffle your hand back into your deck
+   if not silent and not confirm("Are you sure you want to shuffle your hand into your deck?"): return
+   if not silent: notify("{} is shuffling their hand back into their deck...".format(me))
    groupToDeck(group,silent = True)
    whisper("Shuffling...")
    shuffle(me.Deck) # We do a good shuffle this time.
    whisper("Shuffle completed.")
        
 def groupToDeck (group = me.hand, player = me, silent = False):
-   debugNotify(">>> groupToDeck(){}".format(extraASDebug())) #Debug
    mute()
    deck = player.Deck
    count = len(group)

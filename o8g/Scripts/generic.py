@@ -98,7 +98,6 @@ class OKWindow(Form): # This is a WinForm which creates a simple window, with so
          self.timer_tries += 1
             
 def information(Message):
-   debugNotify(">>> information() with message: {}".format(Message))
    if Automations['WinForms']:
       Application.EnableVisualStyles()
       form = OKWindow(Message)
@@ -236,7 +235,6 @@ class SingleChoiceWindow(Form):
          self.timer_tries += 1
 
 def SingleChoice(title, options, type = 'button', default = 0, cancelButton = True, cancelName = 'Cancel'):
-   debugNotify(">>> SingleChoice()".format(title))
    ### Old WinForms code is (hopefully) obsolete now
    # if Automations['WinForms']:
       # optChunks=[options[x:x+7] for x in xrange(0, len(options), 7)]
@@ -248,9 +246,9 @@ def SingleChoice(title, options, type = 'button', default = 0, cancelButton = Tr
          # form.BringToFront()
          # form.ShowDialog()
          # choice = form.getIndex()
-         # debugNotify("choice is: {}".format(choice), 2)
+         # #debugNotify("choice is: {}".format(choice), 2)
          # if choice == "Next Page": 
-            # debugNotify("Going to next page", 3)
+            # #debugNotify("Going to next page", 3)
             # optCurrent += 1
             # if optCurrent >= len(optChunks): optCurrent = 0
          # elif choice != None: 
@@ -261,10 +259,10 @@ def SingleChoice(title, options, type = 'button', default = 0, cancelButton = Tr
    else: customButtonsList = []
    while choice == "New" or (choice == None and not cancelButton):
       choice = askChoice(title, options, customButtons = customButtonsList)
-      debugNotify("choice is: {}".format(choice), 2)
+      #debugNotify("choice is: {}".format(choice), 2)
       if choice > 0: choice -= 1 # Reducing by 1 because askChoice() starts from 1 but my code expects to start from 0
       elif choice <= 0: choice = None
-   debugNotify("<<< SingleChoice() with return {}".format(choice), 3)
+   #debugNotify("<<< SingleChoice() with return {}".format(choice), 3)
    return choice
  
    
@@ -285,7 +283,7 @@ class MultiChoiceWindow(Form):
       self.origTitle = formStringEscape(FormTitle) # Used when modifying the label from a button
       
       self.confirmValue = existingChoices
-      debugNotify("existingChoices = {}".format(self.confirmValue))
+      #debugNotify("existingChoices = {}".format(self.confirmValue))
       self.nextPageBool = False  # self.nextPageBool is just remembering if the player has just flipped the page.
       self.currPage = currPage
       
@@ -406,7 +404,7 @@ class MultiChoiceWindow(Form):
          self.timer_tries += 1 # Increment this counter to stop after 3 tries.
 
 def multiChoice(title, options): # This displays a choice where the player can select more than one ability to trigger serially one after the other
-   debugNotify(">>> multiChoice()".format(title))
+   #debugNotify(">>> multiChoice()".format(title))
    if Automations['WinForms']: # If the player has not disabled the custom WinForms, we use those
       optChunks=[options[x:x+7] for x in xrange(0, len(options), 7)]
       optCurrent = 0
@@ -415,19 +413,19 @@ def multiChoice(title, options): # This displays a choice where the player can s
       while choices == "New" or choices == "Next Page":
          Application.EnableVisualStyles() # To make the window look like all other windows in the user's system
          CPType = 'Control Panel'
-         debugNotify("About to open form")
+         #debugNotify("About to open form")
          if choices == "Next Page": nextPageBool = True
          else: nextPageBool = False
          form = MultiChoiceWindow(title, optChunks[optCurrent], CPType, pages = len(optChunks), currPage = optCurrent, existingChoices = currChoices) # We create an object called "form" which contains an instance of the MultiChoice windows form.
          form.ShowDialog() # We bring the form to the front to allow the user to make their choices
          choices = form.getIndex() # Once the form is closed, we check an internal variable within the form object to grab what choices they made
-         debugNotify("choices = {}".format(choices))
+         #debugNotify("choices = {}".format(choices))
          if choices == "Next Page": 
-            debugNotify("Going to next page", 4)
+            #debugNotify("Going to next page", 4)
             optCurrent += 1
             if optCurrent >= len(optChunks): optCurrent = 0
             currChoices = form.getStoredChoices()
-            debugNotify("currChoices = {}".format(currChoices))
+            #debugNotify("currChoices = {}".format(currChoices))
    else: # If the user has disabled the windows forms, we use instead the OCTGN built-in askInteger function
       concatTXT = title + "\n\n(Tip: You can put multiple abilities one after the the other (e.g. '110'). Max 9 at once)\n\n" # We prepare the text of the window with a concat string
       for iter in range(len(options)): # We populate the concat string with the options
@@ -437,7 +435,7 @@ def multiChoice(title, options): # This displays a choice where the player can s
       else: 
          choices = list(str(choicesInteger)) # We convert our number into a list of numeric chars
          for iter in range(len(choices)): choices[iter] = int(choices[iter]) # we convert our list of chars into a list of integers      
-   debugNotify("<<< multiChoice() with list: {}".format(choices), 3)
+   #debugNotify("<<< multiChoice() with list: {}".format(choices), 3)
    return choices # We finally return a list of integers to the previous function. Those will in turn be iterated one-by-one serially.
       
 #---------------------------------------------------------------------------
@@ -517,11 +515,10 @@ def sortPriority(cardList):
    return sortedList
 
 def findMarker(card, markerDesc): # Goes through the markers on the card and looks if one exist with a specific description
-   if debugVerbosity >= 1: notify(">>> findMarker(){}".format(extraASDebug())) #Debug
    foundKey = None
    if markerDesc in mdict: markerDesc = mdict[markerDesc][0] # If the marker description is the code of a known marker, then we need to grab the actual name of that.
    for key in card.markers:
-      debugNotify("### Key: {}\nmarkerDesc: {}".format(key[0],markerDesc)) # Debug
+      #debugNotify("### Key: {}\nmarkerDesc: {}".format(key[0],markerDesc)) # Debug
       if re.search(r'{}'.format(markerDesc.replace('+','\+')),key[0]) or markerDesc == key[0]: # We need to replace any '+' in the marker names to escaped \+ otherwise the regex statement gets confused
          foundKey = key
          if debugVerbosity >= 2: notify("### Found {} on {}".format(key[0],card))
@@ -542,10 +539,10 @@ def claimCard(card, player = me): # Requests the controller of a card to pass co
       while card.controller != player: 
          rnd(1,10)
          update()
-         debugNotify("iteration {}. Controller is {} and it should be {}".format(count,card.controller, player), 4)
+         #debugNotify("iteration {}. Controller is {} and it should be {}".format(count,card.controller, player), 4)
          count += 1
          if count >= 10:
-            debugNotify(":::ERROR::: claimCard() failed. Card controller still {} instead of {}. Giving up".format(card.controller.name,player)) # This always seems to fail (https://github.com/kellyelton/OCTGN/issues/416#issuecomment-31157031)
+            #debugNotify(":::ERROR::: claimCard() failed. Card controller still {} instead of {}. Giving up".format(card.controller.name,player)) # This always seems to fail (https://github.com/kellyelton/OCTGN/issues/416#issuecomment-31157031)
             return
       #if prevGroup == table: autoscriptOtherPlayers('{}:CardTakeover:{}'.format(player,prevController),card)
    
@@ -592,7 +589,6 @@ def fetchHost(card):
 #---------------------------------------------------------------------------
 
 def cwidth(card = None, divisor = 10):
-#if debugVerbosity >= 1: notify(">>> cwidth(){}".format(extraASDebug())) #Debug
 # This function is used to always return the width of the card plus an offset that is based on the percentage of the width of the card used.
 # The smaller the number given, the less the card is divided into pieces and thus the larger the offset added.
 # For example if a card is 80px wide, a divisor of 4 will means that we will offset the card's size by 80/4 = 20.
@@ -604,7 +600,6 @@ def cwidth(card = None, divisor = 10):
    return (CardWidth + offset)
 
 def cheight(card = None, divisor = 10):
-   #if debugVerbosity >= 1: notify(">>> cheight(){}".format(extraASDebug())) #Debug
    if divisor == 0: offset = 0
    else: offset = CardHeight / divisor
    return (CardHeight + offset)
@@ -612,19 +607,19 @@ def cheight(card = None, divisor = 10):
 def placeCard(card,type = None):
 # This function automatically places a card on the table according to what type of card is being placed
 # It is called by one of the various custom types and each type has a different value depending on if the player is on the X or Y axis.
-   global strikeCount, posSideCount, negSideCount
-   if card.Type == 'Hero':
-      card.moveToTable(0, 20 * playerside)
-   if card.Type == 'Property':
-      otherProperties = [c for c in table if c.Type == 'Property' and c.controller == me]
-      card.moveToTable((10 + CardWidth) * len(otherProperties), 110 * playerside)
-   elif type == 'SetupStronghold':
-      card.moveToTable(-73, 110 * playerside)
+   if type == 'SetupStronghold':
+      card.moveToTable(-250, 110 * playerside)
    elif type == 'SetupM&B':
-      card.moveToTable(CardWidth, 110 * playerside)
+     card.moveToTable(250, 110 * playerside)
    elif type == 'SetupCastle':
       otherCastles = [c for c in table if c.Type == 'Castle' and c.controller == me]
-      card.moveToTable(130 * playerside + len(otherCastles) * (CardWidth + 10), 200 * playerside)
+      card.moveToTable(-170 * playerside + len(otherCastles) * (CardWidth + 50), 200 * playerside)
+   elif card.Type == 'Hero':
+      card.moveToTable(0, 20 * playerside)
+   elif card.Type == 'Property':
+      otherProperties = [c for c in table if c.Type == 'Property' and c.controller == me]
+      card.moveToTable((10 + CardWidth) * len(otherProperties), 110 * playerside)
+      card.orientation = Rot90
    else: card.moveToTable(0,70 * playerside)
    
 def homeDistance(card = None):

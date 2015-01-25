@@ -1825,7 +1825,7 @@
          <property name="Instructions"    value="" />
       </card>
 
-      <card id="d5fce234-f965-4c52-a8cf-846c4dc717e3" name="The Dread Army Ixhasa">
+      <card id="d5fce234-f965-4c52-a8cf-846c4dc717e3" name="The Dread Army of Ixhasa">
          <property name="Type"            value="Stronghold" />
          <property name="Faction"         value="" />
          <property name="Strength"        value="19" />

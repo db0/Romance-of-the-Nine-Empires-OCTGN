@@ -44,12 +44,10 @@ def findHost(card):
    return result
 
 def attachCard(attachment,host,facing = 'Same'):
-   debugNotify(">>> attachCard(){}".format(extraASDebug())) #Debug
    hostCards = eval(getGlobalVariable('Host Cards'))
    hostCards[attachment._id] = host._id
    setGlobalVariable('Host Cards',str(hostCards))
    orgAttachments(host,facing)
-   debugNotify("<<< attachCard()", 3)
    
 def clearAttachLinks(card):
 # This function takes care to discard any attachments of a card that left play
@@ -62,7 +60,6 @@ def clearAttachLinks(card):
       for attachmentID in hostCardSnapshot:
          if hostCardSnapshot[attachmentID] == card._id:
             if Card(attachmentID) in table: 
-               debugNotify("Attachment exists. Trying to remove.", 2)      
                discard(Card(attachmentID)) # We always just discard attachments 
             del hostCards[attachmentID]
    if hostCards.has_key(card._id):
@@ -79,7 +76,6 @@ def orgAttachments(card,facing = 'Same'):
    if card.controller != me: 
       remoteCall(card.controller,'orgAttachments',[card,facing])
       return
-   debugNotify(">>> orgAttachments()") #Debug
    attNR = 1
    xAlg = 0 # The Default placement on the X axis, is to place the attachments at the same X as their parent
    yAlg = -(cwidth() / 4)
@@ -95,7 +91,6 @@ def orgAttachments(card,facing = 'Same'):
       attachment.moveToTable(x + (xAlg * attNR), y + (yAlg * attNR),FaceDown)
       if attachment.controller == me and FaceDown: attachment.peek()
       attachment.setIndex(len(cardAttachements) - attNR) # This whole thing has become unnecessary complicated because sendToBack() does not work reliably
-      debugNotify("{} index = {}".format(attachment,attachment.getIndex), 4) # Debug
       attNR += 1
    card.sendToFront() # Because things don't work as they should :(
 
@@ -109,4 +104,5 @@ def addC(cardModel,count = 1): # Quick function to add custom cards on the table
 # remoteCall(me,'addC',['<cardGUID>'])
    card = table.create(cardModel, 0,0, count, True)
    
-   
+def reconnect(group=table,x=0,y=0):
+   chooseSide()
