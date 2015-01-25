@@ -82,9 +82,21 @@ def defaultAction(card, x = 0, y = 0):
    if card.highlight == FateColor:
       if card.isFaceUp: revealFate(card)
       else: discard(card)
-   if getGlobalVariable('Battle') == 'True' and card.highlight != BattleColor and card.Type == 'Hero': joinBattle(card)
+   elif card.Type == 'Quest': completeQuest(card)
+   elif getGlobalVariable('Battle') == 'True' and card.highlight != BattleColor and card.Type == 'Hero': joinBattle(card)
    else: bow(card)
-   
+
+def completeQuest(card):
+   mute()
+   if card.alternate == '': 
+      card.switchTo('Completed')
+      notify("{} has completed {} for {} Renown".format(me,card,card.Renown))
+      me.Renown += num(card.Renown)
+   else:
+      notify("{} has marked {} as uncompleted. They lose {} Renown".format(me,card,card.Renown))
+      me.Renown -= num(card.Renown)
+      card.switchTo()
+      
 def revealFate(card):
    mute()
    notify("{} reveals {} for a fate value of {}".format(me,card,card.Fate))
@@ -163,6 +175,20 @@ def bow(card, x = 0, y = 0, silent = False, forced =  None): # Boot or Unboot a 
       if not silent: notify('{} straightens {}'.format(me, card))
    return result
 
+def spawnTokenHero(group = table,x = 0,y = 0):
+   mute()
+   guid, quantity = askCard({"Type":['Hero','Castle'],"Keywords":['Token','Unaligned-Token','Undead-Token']}, "and")
+   if guid: token = table.create(guid, 0, 0, quantity)
+   
+def spawnTokenCohort(card,x = 0,y = 0):
+   mute()
+   guid, quantity = askCard({"Type":"Cohort","Keywords":"Token"}, "and")
+   if guid: 
+      for iter in range(quantity):
+         token = table.create(guid, 0, 0, 1)   
+         attachCard(token,card)  
+   orgAttachments(card)
+   
 def discard(card, x = 0, y = 0, silent = False): # Discard a card.
    if card.controller != me: 
       remoteCall(card.controller,"discard",[card])
@@ -331,10 +357,13 @@ def playcard(card,retainPos = False):
    else: 
       placeCard(card)
       notify("{} plays {} from their hand.".format(me, card))
+   if card.Type == 'Quest': 
+      me.Renown += num(card.Renown)
+      notify(":> {}'s Renown increases by {}".format(card.Renown))
    
 def shuffle(group): # A simple function to shuffle piles
    group.shuffle()
-
+   
 def reshuffle(group = me.piles['Discard Pile']): # This function reshuffles the player's discard pile into their deck.
    mute()
    Deck = me.Deck # Just to save us some repetition

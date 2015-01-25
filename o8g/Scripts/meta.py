@@ -37,6 +37,7 @@ Stored_Keywords = {} # A Dictionary holding all the Keywords a card has.
 
 def findHost(card):
    # Tries to find a host to attach the gear
+   result = None
    targetedCards = [c for c in table if c.targetedBy and c.targetedBy == me and c.Type == 'Hero' and c.controller == me]
    if not len(targetedCards):
       whisper(":::ERROR::: Please Target a valid Hero for this {}".format(card.Type))
