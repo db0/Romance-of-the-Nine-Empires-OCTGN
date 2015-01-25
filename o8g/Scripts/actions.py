@@ -268,32 +268,37 @@ def download_o8c(group,x=0,y=0):
 #---------------------------------------------------------------------------
 
 
-def addFood(card, x = 0, y = 0): 
+def addFood(cardList, x = 0, y = 0): 
    mute()
-   notify("{} adds a food counter on {}".format(me, card))
-   card.markers[mdict['Food']] += 1
+   for card in cardList:
+      notify("{} adds a food counter on {}".format(me, card))
+      card.markers[mdict['Food']] += 1
     
-def delFood(card, x = 0, y = 0): 
+def delFood(cardList, x = 0, y = 0): 
    mute()
-   if card.markers[mdict['Food']]:
-      notify("{} removes a food counter from {}".format(me, card))
-      card.markers[mdict['Food']] -= 1
-   else: whisper(":::ERROR::: There is no more food to remove from this card")
+   for card in cardList:
+      if card.markers[mdict['Food']]:
+         notify("{} removes a food counter from {}".format(me, card))
+         card.markers[mdict['Food']] -= 1
+      else: whisper(":::ERROR::: There is no more food to remove from this card")
     
-def addTwoTwo(card, x = 0, y = 0): 
+def addTwoTwo(cardList, x = 0, y = 0): 
    mute()
-   notify("{} adds a +2/+2 counter on {}".format(me, card))
-   card.markers[mdict['+2/+2']] += 1
+   for card in cardList:
+      notify("{} adds a +2/+2 counter on {}".format(me, card))
+      card.markers[mdict['+2/+2']] += 1
     
-def addMinusSTR(card, x = 0, y = 0):
+def addMinusSTR(cardList, x = 0, y = 0):
    mute()
-   notify("{} adds a -1 Strength counter on {}".format(me, card))
-   card.markers[mdict['-1 Strength']] += 1
+   for card in cardList:
+      notify("{} adds a -1 Strength counter on {}".format(me, card))
+      card.markers[mdict['-1 Strength']] += 1
     
-def addMinusWILL(card, x = 0, y = 0): 
+def addMinusWILL(cardList, x = 0, y = 0): 
    mute()
-   notify("{} adds a -1 Will counter on {}".format(me, card))
-   card.markers[mdict['-1 Will']] += 1
+   for card in cardList:
+      notify("{} adds a -1 Will counter on {}".format(me, card))
+      card.markers[mdict['-1 Will']] += 1
     
 def addMarker(cards, x = 0, y = 0): # A simple function to manually add any of the available markers.
    mute()
