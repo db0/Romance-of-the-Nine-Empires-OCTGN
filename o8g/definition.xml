@@ -86,10 +86,10 @@
 		<cardactions menu="Markers...">
 			<cardaction menu="Add Food" default="False" shortcut="Alt+F" batchExecute="addFood" />
 			<cardaction menu="Remove Food" default="False" shortcut="Alt+Shift+F" batchExecute="delFood" />
-			<cardaction menu="Add +2/+2 Marker" default="False" shortcut="Alt+Shift+F" batchExecute="addTwoTwo" />
-			<cardaction menu="Mark -1 Strength" default="False" shortcut="Alt+Shift+F" batchExecute="addMinusSTR" />
-			<cardaction menu="Mark -1 Will" default="False" shortcut="Alt+Shift+F" batchExecute="addMinusWILL" />
-			<cardaction menu="Add Undead Marker" default="False" shortcut="Alt+Shift+F" batchExecute="addUndeadMarker" />
+			<cardaction menu="Add +2/+2 Marker" default="False" shortcut="Alt+Shift+F" batchExecute="addTwoTwo" showIf="checkIfHero" />
+			<cardaction menu="Mark -1 Strength" default="False" shortcut="Alt+Shift+F" batchExecute="addMinusSTR" showIf="checkIfHero" />
+			<cardaction menu="Mark -1 Will" default="False" shortcut="Alt+Shift+F" batchExecute="addMinusWILL" showIf="checkIfHero" />
+			<cardaction menu="Add Undead Marker" default="False" shortcut="Alt+Shift+F" batchExecute="addUndeadMarker" showIf="checkIfHero" />
 			<cardaction menu="Add Markers" default="False" shortcut="Alt+M" batchExecute="addMarker" />
 		</cardactions>
 		<cardaction menu="Discard card(s)" default="False" shortcut="Del" execute="discard" />
