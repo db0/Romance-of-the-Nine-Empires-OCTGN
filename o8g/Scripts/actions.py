@@ -234,6 +234,9 @@ def setOrdained(winner):
       if stronghold.owner == winner: outfit.markers[mdict['Ordained']] = 1
       else: outfit.markers[mdict['Ordained']] = 0
 
+def download_o8c(group,x=0,y=0):
+   openUrl("http://octgn.dbzer0.com/R9E/R9E-Core-Arcane_Fire.o8c")
+      
 #---------------------------------------------------------------------------
 # Marker functions
 #---------------------------------------------------------------------------
