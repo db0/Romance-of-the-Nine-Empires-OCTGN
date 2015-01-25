@@ -31,9 +31,12 @@ def showCurrentPhase(phase = 1): # Just say a nice notification about which phas
 def nextPhase(group = table, x = 0, y = 0):  
 # Function to take you to the next phase. 
    mute()
-   if getGlobalVariable('Battle') == 'True':
-      if not confirm("There's still a battle ongoing. Do you want to end it and move to the next phase?"): return
-      else: goToAttack()
+   if getGlobalVariable('Engagement') == 'True':
+      if not confirm("There's still an engagement ongoing. Do you want to end it and move to the next phase?"): return
+      else: goToEngagement()
+   if getGlobalVariable('Engagement') == 'True':
+      if not confirm("There's still a raid ongoing. Do you want to end it and move to the next phase?"): return
+      else: goToRaid()
    phase = int(getGlobalVariable('Phase'))
    if phase == 4: phase = 1 # In case we're on the last phase (Nightfall), go back to the first game phase (Gamblin')
    else: phase += 1 # Otherwise, just move up one phase
@@ -42,35 +45,39 @@ def nextPhase(group = table, x = 0, y = 0):
    elif phase == 3: goToAutumn()
    elif phase == 4: goToWinter()
 
-def goToSpring(group = table, x = 0, y = 0): # Go directly to the gamblin' phase
+def goToSpring(group = table, x = 0, y = 0): 
    mute()
    setGlobalVariable('Phase','1')
    showCurrentPhase(1)
    clearBattle() 
 
-def goToSummer(group = table, x = 0, y = 0): # Go directly to the Upkeep phase
+def goToSummer(group = table, x = 0, y = 0): 
    mute()
    setGlobalVariable('Phase','2')
-   clearBattle() # For clearing any leftover lowball draw hands.
+   clearBattle() 
    showCurrentPhase(2)
 
-def goToAutumn(group = table, x = 0, y = 0): # Go directly to the High Noon phase
+def goToAutumn(group = table, x = 0, y = 0): 
    mute()
    setGlobalVariable('Phase','3')
    showCurrentPhase(3)
 
-def goToWinter(group = table, x = 0, y = 0): # Go directly to the Nightfall phase
+def goToWinter(group = table, x = 0, y = 0): 
    mute()
    setGlobalVariable('Phase','4')
    showCurrentPhase(4)   
 
-def goToAttack(group = table, x = 0, y = 0, silent = False): # Start or End a Shootout Phase
+def goToEngagement(group = table, x = 0, y = 0, silent = False): # Start or End a Battle 
    mute()
-   if getGlobalVariable('Battle') == 'False': # The shootout phase just shows a nice notification when it starts and does nothing else.
-      if not silent: notify("{} is attacking!".format(me))
-      setGlobalVariable('Battle','True')
+   if getGlobalVariable('Engagement') == 'False':
+      if getGlobalVariable('Phase') != '2' and getGlobalVariable('Phase') != '3' and confirm(":::WARNING::: It is neither Summer or Autumn phase. Do you want to jump to Summer now?"): goToSummer() 
+      if not silent: 
+         if getGlobalVariable('Phase') == '3': notify("{} is raiding!".format(me))
+         else: notify("{} is attacking!".format(me))
+      setGlobalVariable('Engagement','True')
    else: # When the shootout ends however, any card.highlights for attacker and defender are quickly cleared.
-      notify("The battle has ended.".format(me))
+      if getGlobalVariable('Phase') == '3': notify("The raid has ended.".format(me))
+      else: notify("The battle has ended.".format(me))
       clearBattle()
 
 #---------------------------------------------------------------------------
@@ -83,7 +90,7 @@ def defaultAction(card, x = 0, y = 0):
       if not card.isFaceUp: revealFate(card)
       else: discard(card)
    elif card.Type == 'Quest': completeQuest(card)
-   elif getGlobalVariable('Battle') == 'True' and card.highlight != BattleColor and card.Type == 'Hero': joinBattle(card)
+   elif getGlobalVariable('Engagement') == 'True' and card.highlight != BattleColor  and card.highlight != RaidColor and card.Type == 'Hero': participate(card)
    else: bow(card)
 
 def completeQuest(card):
@@ -113,6 +120,7 @@ def setup(group,x=0,y=0):
       if card.Type == "Stronghold" : 
          placeCard(card,'SetupStronghold')
          stronghold = card
+         me.Renown += num(card.Renown)
       elif card.Type == "Castle" : 
          placeCard(card,'SetupCastle')
          castles.append(card)
@@ -129,7 +137,7 @@ def setup(group,x=0,y=0):
       placeCard(motteBailey,'SetupM&B')
    handlimit = 4 + len([card for card in table if card.controller == me and card.Type =='Castle'])
    drawMany(me.Deck,handlimit,silent = True)
-   notify("{} is playing {} with the following castles: {}.".format(me, stronghold, [castle.Name for castle in castles]))
+   notify("{} is playing {} with the following castles: {}. Their starting renown is {}.".format(me, stronghold, [castle.Name for castle in castles],me.Renown))
    
 def mulligan(group):
    mute()
@@ -146,12 +154,12 @@ def Ready(group, x = 0, y = 0): # Player says ready. A very common action.
 
 def clearBattle(remoted = False):
    if not remoted:
-      setGlobalVariable('Battle','False')
+      setGlobalVariable('Engagement','False')
       for player in getActivePlayers():
          if player != me: remoteCall(player,'clearBattle',[True])
    for card in table:
       if card.controller == me:
-         if card.highlight == BattleColor: card.highlight = None
+         if card.highlight == BattleColor or card.highlight == RaidColor: card.highlight = None
       
 def bow(card, x = 0, y = 0, silent = False, forced =  None): # Boot or Unboot a card. I.e. turn it 90 degrees sideways or set it straight.
    mute()
@@ -235,10 +243,9 @@ def springStraighten(group, x = 0, y = 0):
    if getGlobalVariable('Phase') != '1': #One can only call for refresh during the Nighfall phase
       if not confirm(":::WARNING::: It is not yet the Spring phase. Do you want to jump to Spring now?"): return
       goToSpring()
-   cards = (card for card in table
-                 if card.controller == me)
+   cards = [card for card in table if card.controller == me]
    for card in cards: card.orientation = Rot0
-   notify("Sundown refreshes {} cards and refills their hand back to {}.".format(me, handsize))
+   notify(":> Spring refreshes {}'s cards".format(me))
 
 def winterRefill(group, x=0,y=0):
    mute()
@@ -252,6 +259,8 @@ def winterRefill(group, x=0,y=0):
          discard(card, silent = True)
          notify("{} discarded expired quest ({})".format(me,card))
       else: card.markers[mdict['Used Ability']] = 0
+   notify(":> {} settles down for the Winter. They have {}/{} cards in their hand".format(me,len(me.hand),handlimit))
+      
    
 def inspectCard(card, x = 0, y = 0): # This function shows the player the card text, to allow for easy reading until High Quality scans are procured.
    if card.Text == '': information("{} has no text".format(card.name))
@@ -328,22 +337,29 @@ def addUndeadMarker(cardList, x = 0, y = 0):
          card.markers[mdict['Undead']] += 1
 
 #---------------------------------------------------------------------------
-# Battle actions
+# Battle/Raid actions
 #---------------------------------------------------------------------------        
 
-def joinBattle(card, x = 0, y = 0): 
-   if card.Type == "Hero" : 
-       mute () 
-       notify("{} is joining the battle.".format(card))
-       card.highlight = BattleColor
+def participate(card, x = 0, y = 0): 
+   mute () 
+   if card.Type == "Hero": 
+      if getGlobalVariable('Engagement') == 'True':
+         if getGlobalVariable('Phase') == '3':
+            notify("{} is joining the raid.".format(card))
+            card.highlight = RaidColor
+         else: 
+            notify("{} is joining the battle.".format(card))
+            card.highlight = BattleColor
+      else: whisper(":::ERROR::: There is neither a battle nor a raid taking place m'lord!")
+          
       
-def leaveBattle(card, x = 0, y = 0): # Same as above pretty much but also clears the shootout highlights.
+def unparticipate(card, x = 0, y = 0): # Same as above pretty much but also clears the shootout highlights.
    if card.controller != me:
-      remoteCall(card.controller,'leaveBattle',[card,x,y])
+      remoteCall(card.controller,'unparticipate',[card,x,y])
       return
-   if card.highlight == BattleColor: 
-      card.highlight = None
-      notify("{} left the battle.".format(card))
+   if card.highlight == BattleColor: notify("{} has fled the battle.".format(card))
+   if card.highlight == RaidColor: notify("{} has aborted the raid.".format(card))
+   card.highlight = None
       
 #---------------------------------------------------------------------------
 # Hand and Deck actions

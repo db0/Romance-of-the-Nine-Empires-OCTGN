@@ -12,6 +12,7 @@ phases = [
 
 ### Highlight Colours ###
 BattleColor = "#ff0000"
+RaidColor = "#0000ff"
 FateColor = "#000000"
 DummyColor = "#005566"
 
