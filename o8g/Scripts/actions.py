@@ -318,9 +318,9 @@ def addMarker(cards, x = 0, y = 0): # A simple function to manually add any of t
       card.markers[marker] += quantity
       notify("{} adds {} {} counter to {}.".format(me, quantity, marker[0], card))	
       
-def addUndeadMarker(card, x = 0, y = 0):
+def addUndeadMarker(cardList, x = 0, y = 0):
    mute()
-   if card.Type == "Dude":
+   for card in cardList:
       if card.markers[mdict['Undead']] == 1 or re.search(r'Undead.', card.Keywords):
          notify("{} is already undead!".format(card))
       else:
