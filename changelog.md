@@ -7,7 +7,8 @@ Changelog - Romance of the Nine Empires OCTGN Game Definition
    * All functionality to play a full game should be there.
 
 ===== How to play =====
-
+   
+   * Load your deck. Once both players have loaded their deck, press Ctrl+Shift+S to setup your side (or drag your stronghold to the table)
    * Ctrl+Enter cycles through the phases. F1-F4 jumps to specific phase (Spring/Summer/Autumn/Winter respectively)
    * F10 declares an attack in Summer, or a raid in Autumn. Inform the target player via chat in multiplayer. pressing F10 again finishes the engagement.
    * To play a Hero or Property, double click it from your hand
@@ -35,3 +36,8 @@ Changelog - Romance of the Nine Empires OCTGN Game Definition
    * To straighten all your cards in Spring, press Ctrl+S
    * To refill your hand in Winter, press Ctrl+W. It will also clear unfinished quests and inform if you're exceeding your hand limit.
   
+===== Deck Creation =====
+
+   * Do not include Tokens of any sort in your deck! Game handles this via the engine!
+   * Respect deck construction rules or you'll get an error
+   * It's OK if you forget your Motte & Bailey
