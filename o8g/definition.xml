@@ -74,7 +74,7 @@
 			<groupaction menu="Jump to Winter." default="False" shortcut="F4" execute="goToWinter"/>
 		</groupactions>
 	   <groupaction menu="Spring Straighten." default="False" shortcut="Ctrl+S" execute="springStraighten" />
-	   <groupaction menu="Winter Hand Refill." default="False" shortcut="Ctrl+W" execute="winterRefill" />
+	   <groupaction menu="Winter Refresh." default="False" shortcut="Ctrl+W" execute="winterRefill" />
 	   <groupaction menu="Declare Attack." default="False" shortcut="F10" execute="goToAttack" />
 		<groupaction menu="Announce Pass." default="False" shortcut="Ctrl+Space" execute="Pass" />
 		<groupaction menu="Announce Ready." default="False" shortcut="Ctrl+R" execute="Ready" />

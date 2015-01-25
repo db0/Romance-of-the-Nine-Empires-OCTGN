@@ -244,11 +244,14 @@ def winterRefill(group, x=0,y=0):
    mute()
    drawMany(me.Deck,4,silent = True)
    handlimit = 4 + len([card for card in table if card.controller == me and card.Type =='Castle'])
-   if me.hand > handlimit:
+   if len(me.hand) > handlimit:
       whisper(":::WARNING::: You are above your handlimit of {}. Please discard {} cards before proceeding to Spring".format(handlimit,len(me.hand) - handlimit))
-   cards = (card for card in table
-                 if card.controller == me)
-   for card in cards: card.markers[mdict['Used Ability']] = 0
+   cards = [card for card in table if card.controller == me]
+   for card in cards: 
+      if card.Type == 'Quest' and not re.search(r'Completed Quest', card.Keywords):
+         discard(card, silent = True)
+         notify("{} discarded expired quest ({})".format(me,card))
+      else: card.markers[mdict['Used Ability']] = 0
    
 def inspectCard(card, x = 0, y = 0): # This function shows the player the card text, to allow for easy reading until High Quality scans are procured.
    if card.Text == '': information("{} has no text".format(card.name))
@@ -371,7 +374,7 @@ def playcard(card,retainPos = False):
       notify("{} plays {} from their hand.".format(me, card))
    if card.Type == 'Quest': 
       me.Renown += num(card.Renown)
-      notify(":> {}'s Renown increases by {}".format(card.Renown))
+      notify(":> {}'s Renown increases by {}".format(me,card.Renown))
 
 def playFate(card):
    mute()
