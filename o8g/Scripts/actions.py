@@ -203,6 +203,9 @@ def discard(card, x = 0, y = 0, silent = False): # Discard a card.
       remoteCall(card.controller,"discard",[card])
       return
    mute()
+   if card.Type == "Stronghold": 
+      whisper(":::ERROR::: You cannot discard strongholds!")
+      return
    cardowner = card.owner
    clearAttachLinks(card)
    if not silent: 
@@ -216,6 +219,9 @@ def bury(card, x = 0, y = 0, silent = False): # Bury a card.
       remoteCall(card.controller,"bury",[card])
       return
    mute()
+   if card.Type == "Stronghold": 
+      whisper(":::ERROR::: You cannot bury strongholds!")
+      return
    cardowner = card.owner
    clearAttachLinks(card)
    if not silent: 
