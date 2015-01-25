@@ -98,10 +98,11 @@
 	<player summary="Renown:{#Renown}">
 		<hand name="Hand" visibility="me" ordered="False" width="90" height="126" icon="Groups/playhand.png">
 			<cardaction menu="Play" default="True" execute="playcard" />
-			<cardaction menu="Play facedown for Fate" default="True" execute="playFate" />
+			<cardaction menu="Play facedown for Fate" default="False" shortcut="Ctrl+F" execute="playFate" />
 			<groupaction menu="Take Mulligan" default="False" execute="mulligan" />
 			<cardaction menu="Inspect Card" default="False" shortcut="Ctrl+I" execute="inspectCard" />
 			<cardaction menu="Discard card" default="False" shortcut="Del" execute="handDiscard" />
+			<cardaction menu="Bury card" default="False" shortcut="Del" execute="handBury" />
 			<groupaction menu="Random Discard" default="False" shortcut="Ctrl+Alt+D" execute="randomDiscard" />
 			<groupaction menu="Shuffle Hand into Deck" default="False" execute="handShuffle" />
 		</hand>

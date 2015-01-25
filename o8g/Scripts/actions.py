@@ -80,7 +80,7 @@ def goToAttack(group = table, x = 0, y = 0, silent = False): # Start or End a Sh
 def defaultAction(card, x = 0, y = 0):
    mute()
    if card.highlight == FateColor:
-      if card.isFaceUp: revealFate(card)
+      if not card.isFaceUp: revealFate(card)
       else: discard(card)
    elif card.Type == 'Quest': completeQuest(card)
    elif getGlobalVariable('Battle') == 'True' and card.highlight != BattleColor and card.Type == 'Hero': joinBattle(card)
@@ -99,6 +99,7 @@ def completeQuest(card):
       
 def revealFate(card):
    mute()
+   card.isFaceUp = True
    notify("{} reveals {} for a fate value of {}".format(me,card,card.Fate))
    
    
@@ -196,8 +197,11 @@ def discard(card, x = 0, y = 0, silent = False): # Discard a card.
    mute()
    cardowner = card.owner
    clearAttachLinks(card)
+   if not silent: 
+      if re.search(r'Token',card.Keywords): notify("{} destroyed a {} token".format(me,card))
+      elif card.highlight == FateColor: notify("{} discarded fate card ({})".format(me,card))
+      else: notify("{} discarded {}".format(me,card))
    card.moveTo(cardowner.piles['Discard Pile']) 
-   if not silent: notify("{} discarded {}".format(me,card))
 
 def bury(card, x = 0, y = 0, silent = False): # Bury a card.
    if card.controller != me: 
@@ -206,8 +210,11 @@ def bury(card, x = 0, y = 0, silent = False): # Bury a card.
    mute()
    cardowner = card.owner
    clearAttachLinks(card)
-   card.moveTo(cardowner.piles['Bury Pile']) 
-   if not silent: notify("{} buried {}".format(me,card))
+   if not silent: 
+      if re.search(r'Token',card.Keywords): notify("{} destroyed a {} token".format(me,card))
+      elif card.highlight == FateColor: notify("{} buried fate card ({})".format(me,card))
+      else:notify("{} buried {}".format(me,card))
+   card.moveTo(cardowner.piles['Buried Pile']) 
 
 def discardTarget(table = table, x = 0, y = 0, silent = False, targetCards = None):
    mute()
@@ -365,7 +372,19 @@ def playcard(card,retainPos = False):
    if card.Type == 'Quest': 
       me.Renown += num(card.Renown)
       notify(":> {}'s Renown increases by {}".format(card.Renown))
-   
+
+def playFate(card):
+   mute()
+   targetedCards = [c for c in table if c.targetedBy and c.targetedBy == me and c.Type == 'Hero'] # If a hero is targeted, we assume we want to play a fate card on them
+   if len(targetedCards):
+      xPos, yPos = targetedCards[0].position
+      card.moveToTable(xPos, yPos + 30 * playerside, True)
+      notify("{} plays a fate card facedown on {}".format(me,targetedCards[0]))
+   else: 
+      card.moveToTable(30 * playerside, 0, True)
+      notify("{} plays a fate card facedown".format(me))
+   card.highlight = FateColor
+         
 def shuffle(group): # A simple function to shuffle piles
    group.shuffle()
    
@@ -403,11 +422,11 @@ def setHandSize(group): # A function to modify a player's hand size. This is use
 def handDiscard(card, x = 0, y = 0): # Discard a card from your hand.
    mute()
    card.moveTo(me.piles['Discard Pile'])
-   notify("{} has discarded {}.".format(me, card))  
+   notify("{} has discarded {} with a fate value of {}.".format(me, card,card.Fate))
 
 def handBury(card, x = 0, y = 0): # Bury a card from your hand.
    mute()
-   card.moveTo(me.piles['Bury Pile'])
+   card.moveTo(me.piles['Buried Pile'])
    notify("{} has buried {}.".format(me, card))  
 
 def handShuffle(group, x = 0, y = 0, silent = False): # Shuffle your hand back into your deck

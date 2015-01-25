@@ -61,7 +61,9 @@ def clearAttachLinks(card):
       for attachmentID in hostCardSnapshot:
          if hostCardSnapshot[attachmentID] == card._id:
             if Card(attachmentID) in table: 
-               discard(Card(attachmentID)) # We always just discard attachments 
+               if re.search(r'Token',Card(attachmentID).Keywords): notify("{} destroyed a {} token because its host ({}) left play".format(me,Card(attachmentID),card))
+               else: notify("{} discarded {} because its host ({}) left play".format(me,Card(attachmentID),card))
+               discard(Card(attachmentID),silent = True) # We always just discard attachments 
             del hostCards[attachmentID]
    if hostCards.has_key(card._id):
       hostCard = Card(hostCards[card._id])
