@@ -1069,24 +1069,6 @@
          <property name="Instructions"    value="" />
       </card>
 
-      <card id="079e5a16-1f68-4313-82fe-764154b07e13" name="A Tournament Victory!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Add 2 food tokens to this card. Autumn: Move a food token from this card to one of your castles. You may use this action twice per turn." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="8" />
-         <property name="Instructions"    value="" />
-      </card>
-
       <card id="3650e6a5-b529-4cb4-82f6-372fc306bfef" name="A Tournament Victory?">
          <property name="Type"            value="Quest" />
          <property name="Faction"         value="" />
@@ -1103,24 +1085,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="2" />
          <property name="Instructions"    value="" />
-      </card>
-
-      <card id="e936b1d0-bddc-44e0-8ba2-220148c23bf0" name="Tiger's Last Gambit!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Autumn: Decrease each player's Renown by the gold cost of the hero that was buried to complete this quest. Bury this card." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="3" />
-         <property name="Instructions"    value="" />
+         <alternate name="A Tournament Victory!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Add 2 food tokens to this card. Autumn: Move a food token from this card to one of your castles. You may use this action twice per turn." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="8" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="0c730948-98ba-4f09-8964-089b795a5af2" name="Tiger's Last Gambit?">
@@ -1139,6 +1120,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="2" />
          <property name="Instructions"    value="" />
+         <alternate name="Tiger's Last Gambit!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Autumn: Decrease each player's Renown by the gold cost of the hero that was buried to complete this quest. Bury this card." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="3" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="9cd1fbbd-17fb-4943-ae81-d1eb326ab638" name="Summon Destrier">

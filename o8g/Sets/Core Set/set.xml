@@ -1465,24 +1465,6 @@
          <property name="Instructions"    value="" />
       </card>
 
-      <card id="3ff444d0-9ad1-4589-ad2b-9b33ab2723cb" name="A Desperate Offer!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Battle/Summer: Bow this card. Target another player's unbowed hero. That player chooses either to bow that hero or to have you gain 4 Renown." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="7" />
-         <property name="Instructions"    value="" />
-      </card>
-
       <card id="6220d750-6610-424d-8338-328f6606528f" name="A Desperate Offer?">
          <property name="Type"            value="Quest" />
          <property name="Faction"         value="" />
@@ -1499,24 +1481,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
-      </card>
-
-      <card id="37d4d7db-4340-43eb-9f34-c02d8049dadc" name="A Most Peculiar Lamp!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Summer: Bow this card. Your target hero gains +2S." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="6" />
-         <property name="Instructions"    value="" />
+         <alternate name="A Desperate Offer!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Battle/Summer: Bow this card. Target another player's unbowed hero. That player chooses either to bow that hero or to have you gain 4 Renown." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="7" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="deda292b-0901-4d1a-8bd1-597600b613a7" name="A Most Peculiar Lamp?">
@@ -1535,24 +1516,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="4" />
          <property name="Instructions"    value="" />
-      </card>
-
-      <card id="8a51b54c-25b8-4f4a-a9ef-68a3cd557c9e" name="Journey!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Battle/Summer: Bow this card. Attach a 1S Conscript cohort token to your target hero." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="7" />
-         <property name="Instructions"    value="" />
+         <alternate name="A Most Peculiar Lamp!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Summer: Bow this card. Your target hero gains +2S." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="6" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="9d8949c3-e1a3-4db3-8eca-630a47523fb2" name="Journey?">
@@ -1571,24 +1551,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
-      </card>
-
-      <card id="db93ed31-7656-4fb6-b4c1-f5eafc07b040" name="Rescue the Hostage!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Raid: Bow this card. Target hero gains an additional Carry +1." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="7" />
-         <property name="Instructions"    value="" />
+         <alternate name="Journey!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Battle/Summer: Bow this card. Attach a 1S Conscript cohort token to your target hero." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="7" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="2fe88943-31e9-41df-b7d6-5214e8346407" name="Rescue the Hostage?">
@@ -1607,24 +1586,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="3" />
          <property name="Instructions"    value="" />
-      </card>
-
-      <card id="517b59af-959b-4743-9fe3-f4a7b53ed8bb" name="Staff of Fate!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Summer: Bury this card. Attach a +9S/+3W unique weapon token to your target hero." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="6" />
-         <property name="Instructions"    value="" />
+         <alternate name="Rescue the Hostage!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Raid: Bow this card. Target hero gains an additional Carry +1." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="7" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="6e84a1a1-71f2-4d82-b80a-a9a22a8e59ea" name="Staff of Fate?">
@@ -1643,24 +1621,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="1" />
          <property name="Instructions"    value="" />
-      </card>
-
-      <card id="d14dba02-553a-47f0-8475-099b04265655" name="The Apple of Life!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Summer: Bury this card. Place a target hero from your buried pile into play. Summer: Bury this card. Each player may discard five food tokens. If a player cannot or does not, bow all of that player's Undead cards." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="15" />
-         <property name="Instructions"    value="" />
+         <alternate name="Staff of Fate!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Summer: Bury this card. Attach a +9S/+3W unique weapon token to your target hero." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="6" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="8b28152d-dfd4-4be9-9a30-56cd7050ed18" name="The Apple of Life?">
@@ -1679,6 +1656,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
+         <alternate name="The Apple of Life!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Summer: Bury this card. Place a target hero from your buried pile into play. Summer: Bury this card. Each player may discard five food tokens. If a player cannot or does not, bow all of that player's Undead cards." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="15" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="4036c1f3-f269-4bf2-abf5-e7ea4a2cda92" name="The Biggest Turnip">
@@ -1699,24 +1693,6 @@
          <property name="Instructions"    value="" />
       </card>
 
-      <card id="f33db1f9-a1a0-450d-9795-b71f42da8994" name="The Fallen Outcast!">
-         <property name="Type"            value="Quest" />
-         <property name="Faction"         value="" />
-         <property name="Strength"        value="" />
-         <property name="Will"            value="" />
-         <property name="Glory"           value="" />
-         <property name="Storage"         value="" />
-         <property name="Point Cost"      value="" />
-         <property name="Gold Cost"       value="" />
-         <property name="Food Cost"       value="" />
-         <property name="Keywords"        value="Completed Quest-Token" />
-         <property name="Text"            value="Summer: Straighten your target hero." />
-         <property name="Fate"            value="4" />
-         <property name="Production"      value="" />
-         <property name="Renown"          value="10" />
-         <property name="Instructions"    value="" />
-      </card>
-
       <card id="552a3ef6-8ff0-4343-a65a-929aa17d96aa" name="The Fallen Outcast?">
          <property name="Type"            value="Quest" />
          <property name="Faction"         value="" />
@@ -1733,6 +1709,23 @@
          <property name="Production"      value="" />
          <property name="Renown"          value="5" />
          <property name="Instructions"    value="" />
+         <alternate name="The Fallen Outcast!" type="Completed">
+            <property name="Type"            value="Quest" />
+            <property name="Faction"         value="" />
+            <property name="Strength"        value="" />
+            <property name="Will"            value="" />
+            <property name="Glory"           value="" />
+            <property name="Storage"         value="" />
+            <property name="Point Cost"      value="" />
+            <property name="Gold Cost"       value="" />
+            <property name="Food Cost"       value="" />
+            <property name="Keywords"        value="Completed Quest-Token" />
+            <property name="Text"            value="Summer: Straighten your target hero." />
+            <property name="Fate"            value="4" />
+            <property name="Production"      value="" />
+            <property name="Renown"          value="10" />
+            <property name="Instructions"    value="" />
+         </alternate>
       </card>
 
       <card id="a1ca527e-90dd-4107-93d9-720977c1cf68" name="Divination">
