@@ -29,7 +29,7 @@ How to play
    * Ctrl+Space to declare "Pass"
    * Ctrl+R to declare "Ready"
    * To attack with a Hero, double click him and any cohorts while participating to bow them. Announce totals to opponent manually if required.
-   * To aborb, bury (Ctrl+B) heroes/cohorts/castles as required. You can use Ctrl+Shift+F to remove food tokens from a castle.
+   * To aborb, bury (Ctrl+B) heroes/cohorts/castles as required. You can use Alt+Shift+F to remove food tokens from a castle.
    * Discarding/burrying a hero will discard all attached items and cohorts automatically.
    * To add a stealth card to a hero, target them (Shift+Click) then right click on a card in your hand and "Play Stealth Card". If you don't target a hero, the card will just appear in the table middle.
    * To steal Food, manually drag the food tokens from the castle to your Hero
