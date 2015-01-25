@@ -95,6 +95,14 @@ def orgAttachments(card,facing = 'Same'):
       attNR += 1
    card.sendToFront() # Because things don't work as they should :(
 
+#------------------------------------------------------------------------------
+# showIf checks
+#------------------------------------------------------------------------------
+
+def checkIfHero(cardList):
+   if cardList[0].Type == 'Hero': return True
+   else: return False
+   
 #---------------------------------------------------------------------------
 # Debug
 #---------------------------------------------------------------------------

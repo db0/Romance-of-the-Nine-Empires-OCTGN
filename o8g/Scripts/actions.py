@@ -178,16 +178,16 @@ def bow(card, x = 0, y = 0, silent = False, forced =  None): # Boot or Unboot a 
 def spawnTokenHero(group = table,x = 0,y = 0):
    mute()
    guid, quantity = askCard({"Type":['Hero','Castle'],"Keywords":['Token','Unaligned-Token','Undead-Token']}, "and")
-   if guid: token = table.create(guid, 0, 0, quantity)
+   if guid: token = table.create(guid, x, y, quantity)
    
 def spawnTokenCohort(card,x = 0,y = 0):
    mute()
    guid, quantity = askCard({"Type":"Cohort","Keywords":"Token"}, "and")
    if guid: 
       for iter in range(quantity):
-         token = table.create(guid, 0, 0, 1)   
-         attachCard(token,card)  
-   orgAttachments(card)
+         token = table.create(guid, x, y, 1)   
+         attachCard(token,card)
+   remoteCall(me,'orgAttachments',[card]) # Because otherwise OCTGN messes the indexing up
    
 def discard(card, x = 0, y = 0, silent = False): # Discard a card.
    if card.controller != me: 
