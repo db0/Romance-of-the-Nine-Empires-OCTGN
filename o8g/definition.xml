@@ -4,7 +4,7 @@
       name="Romance of the Nine Empires" 
       id="629549ab-135c-46f1-ab1b-77cb6347dbf8" 
       octgnVersion="3.1.0.0"
-      version="0.3.0.1" 
+      version="0.3.0.4" 
       markersize="16"
       tags="fantasy duel"
       description="Romance of the Nine Empires is supposed to be the card game played in the movie Gamers 3."
@@ -86,10 +86,10 @@
 		<cardactions menu="Markers...">
 			<cardaction menu="Add Food" default="False" shortcut="Alt+F" batchExecute="addFood" />
 			<cardaction menu="Remove Food" default="False" shortcut="Alt+Shift+F" batchExecute="delFood" />
-			<cardaction menu="Add +2/+2 Marker" default="False" shortcut="Alt+Shift+F" batchExecute="addTwoTwo" showIf="checkIfHero" />
-			<cardaction menu="Mark -1 Strength" default="False" shortcut="Alt+Shift+F" batchExecute="addMinusSTR" showIf="checkIfHero" />
-			<cardaction menu="Mark -1 Will" default="False" shortcut="Alt+Shift+F" batchExecute="addMinusWILL" showIf="checkIfHero" />
-			<cardaction menu="Add Undead Marker" default="False" shortcut="Alt+Shift+F" batchExecute="addUndeadMarker" showIf="checkIfHero" />
+			<cardaction menu="Add +2/+2 Marker" default="False" shortcut="Alt+2" batchExecute="addTwoTwo" />
+			<cardaction menu="Mark -1 Strength" default="False" shortcut="Alt+S" batchExecute="addMinusSTR" />
+			<cardaction menu="Mark -1 Will" default="False" shortcut="Alt+W" batchExecute="addMinusWILL" />
+			<cardaction menu="Add Undead Marker" default="False" shortcut="Alt+U" batchExecute="addUndeadMarker" />
 			<cardaction menu="Add Markers" default="False" shortcut="Alt+M" batchExecute="addMarker" />
 		</cardactions>
 		<cardaction menu="Discard card(s)" default="False" shortcut="Del" execute="discard" />

@@ -249,6 +249,9 @@ def springStraighten(group, x = 0, y = 0):
 
 def winterRefill(group, x=0,y=0):
    mute()
+   if getGlobalVariable('Phase') != '1': #One can only call for refresh during the Nighfall phase
+      if not confirm(":::WARNING::: It is not yet the Winter phase. Do you want to jump to Winter now?"): return
+      goToWinter()
    drawMany(me.Deck,4,silent = True)
    handlimit = 4 + len([card for card in table if card.controller == me and card.Type =='Castle'])
    if len(me.hand) > handlimit:
@@ -376,7 +379,7 @@ def playcard(card,retainPos = False):
    if len(uniquecards): # Now we check the combined list to see if anything will block us from playing our card from the hand.
       notify ("{} wanted to bring {} into play they but already have a copy of it in play".format(me,card))     
       return
-   if card.Type == "Item" or card.Type == "Cohort": 
+   if card.Type == "Item" or card.Type == "Spell" or card.Type == "Cohort": 
       hostCard = findHost(card)
       if not hostCard:
          whisper("You need to target the card which is going to attach the card")
