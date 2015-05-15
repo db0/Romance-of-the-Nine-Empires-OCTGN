@@ -4,14 +4,14 @@
       name="Romance of the Nine Empires" 
       id="629549ab-135c-46f1-ab1b-77cb6347dbf8" 
       octgnVersion="3.1.0.0"
-      version="1.0.0.1" 
+      version="1.0.1.0" 
       markersize="16"
       tags="fantasy duel"
       description="Romance of the Nine Empires is supposed to be the card game played in the movie Gamers 3."
       setsurl="http://octgn.gamersjudgement.com/wordpress/R9E/sets/"
       gameurl="http://octgn.gamersjudgement.com/wordpress/R9E"
       authors="Db0"
-      scriptVersion="3.1.0.0"
+      scriptVersion="3.1.0.1"
       iconurl="https://raw.github.com/db0/Romance-of-the-Nine-Empires-OCTGN/master/box.jpg"
       usetwosidedtable="True">
 	<scripts>
@@ -24,7 +24,7 @@
    <events>
       <event name="OnGameStart" action="chkTwoSided" />
       <event name="OnLoadDeck" action="checkDeck" />
-      <event name="OnMoveCard" action="checkMovedCard" />
+      <event name="OnMoveCards" action="checkMovedCards" />
    </events>
    <fonts>
    </fonts>   

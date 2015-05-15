@@ -61,23 +61,35 @@ def checkDeck(player,groups):
                information("We have found illegal cards in your deck. Please load a legal deck!")
    # WiP Checking deck legality. 
    
-def checkMovedCard(player,card,fromGroup,toGroup,oldIndex,index,oldX,oldY,x,y,isScriptMove,highlight = None,markers = None):
+def checkMovedCards(player,cards,fromGroups,toGroups,oldIndexs,indexs,oldXs,oldYs,xs,ys,faceups,highlights,markers):
    mute()
-   if isScriptMove: return # If the card move happened via a script, then all automations should have happened already.
-   if fromGroup == me.hand and toGroup == table: 
-      if card.Type == 'Stronghold': 
-         card.moveTo(me.hand)
-         update()
-         setup(group = table)
-      else: playcard(card, retainPos = True)
-   elif fromGroup != table and toGroup == table and card.owner == me: # If the player moves a card into the table from Hand, or Trash, we assume they are installing it for free.
-      if card.Type == 'Cohort' or card.Type == 'Item':
-         hostCard = findHost(card)
-         if hostCard: 
-            attachCard(card,hostCard)
-            notify(":> {} was attached to {}".format(card,hostCard))
-   elif fromGroup == table and toGroup != table and card.owner == me: # If the player dragged a card manually from the table to their discard pile...
-      clearAttachLinks(card) # If the card was manually removed from play then we simply take care of any attachments
-   elif fromGroup == table and toGroup == table and card.controller == me: # If the player dragged a card manually to a different location on the table, we want to re-arrange the attachments
-      if card.Type == 'Hero': orgAttachments(card) 
+   for iter in range(len(cards)):
+      card = cards[iter]
+      fromGroup = fromGroups[iter]
+      toGroup = toGroups[iter]
+      oldIndex = oldIndexs[iter]
+      index = indexs[iter]
+      oldX = oldXs[iter]
+      oldY = oldYs[iter]
+      x = xs[iter]
+      y = ys[iter]
+      faceup = faceups[iter]
+      highlight = highlights[iter]
+      marker = markers[iter]
+      if fromGroup == me.hand and toGroup == table: 
+         if card.Type == 'Stronghold': 
+            card.moveTo(me.hand)
+            update()
+            setup(group = table)
+         else: playcard(card, retainPos = True)
+      elif fromGroup != table and toGroup == table and card.owner == me: # If the player moves a card into the table from Hand, or Trash, we assume they are installing it for free.
+         if card.Type == 'Cohort' or card.Type == 'Item':
+            hostCard = findHost(card)
+            if hostCard: 
+               attachCard(card,hostCard)
+               notify(":> {} was attached to {}".format(card,hostCard))
+      elif fromGroup == table and toGroup != table and card.owner == me: # If the player dragged a card manually from the table to their discard pile...
+         clearAttachLinks(card) # If the card was manually removed from play then we simply take care of any attachments
+      elif fromGroup == table and toGroup == table and card.controller == me: # If the player dragged a card manually to a different location on the table, we want to re-arrange the attachments
+         if card.Type == 'Hero': orgAttachments(card) 
    
